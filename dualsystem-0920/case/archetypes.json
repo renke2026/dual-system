@@ -1,0 +1,473 @@
+[
+  {
+    "role_type": "COMMUTER",
+    "price_trait": "SENSITIVE",
+    "anxiety_trait": "ANXIOUS",
+    "name_tag": "The Worried Saver",
+    "description": "Fixed job, but constantly checks battery and looks for cheap slow chargers.",
+    "daily_routine": [
+      {
+        "time": "07:30",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "Commute to office",
+        "duration_min": 30
+      },
+      {
+        "time": "08:00",
+        "origin_type": "Work",
+        "dest_type": "Work",
+        "description": "Workday",
+        "duration_min": 480
+      },
+      {
+        "time": "16:00",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Grocery shopping",
+        "duration_min": 60
+      },
+      {
+        "time": "17:15",
+        "origin_type": "Other",
+        "dest_type": "Home",
+        "description": "Commute home",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "role_type": "COMMUTER",
+    "price_trait": "SENSITIVE",
+    "anxiety_trait": "CALM",
+    "name_tag": "The Strategic Optimizer",
+    "description": "Fixed job, waits until the last minute to charge at the cheapest rate.",
+    "daily_routine": [
+      {
+        "time": "08:00",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "Morning commute to work",
+        "duration_min": 30
+      },
+      {
+        "time": "08:30",
+        "origin_type": "Work",
+        "dest_type": "Work",
+        "description": "Workday at the office",
+        "duration_min": 480
+      },
+      {
+        "time": "16:30",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Pick up dry cleaning",
+        "duration_min": 30
+      },
+      {
+        "time": "17:20",
+        "origin_type": "Other",
+        "dest_type": "Home",
+        "description": "Drive home after errands",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "role_type": "COMMUTER",
+    "price_trait": "INSENSITIVE",
+    "anxiety_trait": "ANXIOUS",
+    "name_tag": "The Safety First",
+    "description": "Fixed job, charges immediately upon arrival regardless of cost.",
+    "daily_routine": [
+      {
+        "time": "07:45",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "Commute to work",
+        "duration_min": 30
+      },
+      {
+        "time": "08:15",
+        "origin_type": "Work",
+        "dest_type": "Work",
+        "description": "Workday in the office",
+        "duration_min": 480
+      },
+      {
+        "time": "16:15",
+        "origin_type": "Work",
+        "dest_type": "Relax",
+        "description": "Gym session",
+        "duration_min": 90
+      },
+      {
+        "time": "17:45",
+        "origin_type": "Relax",
+        "dest_type": "Home",
+        "description": "Drive home from gym",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "role_type": "COMMUTER",
+    "price_trait": "INSENSITIVE",
+    "anxiety_trait": "CALM",
+    "name_tag": "The Efficient Elite",
+    "description": "Fixed job, only charges when necessary, prefers fast charging.",
+    "daily_routine": [
+      {
+        "time": "08:30",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "Morning drive to work",
+        "duration_min": 30
+      },
+      {
+        "time": "09:00",
+        "origin_type": "Work",
+        "dest_type": "Work",
+        "description": "Workday at the office",
+        "duration_min": 480
+      },
+      {
+        "time": "16:30",
+        "origin_type": "Work",
+        "dest_type": "Relax",
+        "description": "Dinner with friends",
+        "duration_min": 120
+      },
+      {
+        "time": "17:45",
+        "origin_type": "Relax",
+        "dest_type": "Home",
+        "description": "Drive home after dinner",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "role_type": "GIG_WORKER",
+    "price_trait": "SENSITIVE",
+    "anxiety_trait": "ANXIOUS",
+    "name_tag": "The Grinding Panic",
+    "description": "Drives all day, stressed about range, hunts for cheapest electrons.",
+    "daily_routine": [
+      {
+        "time": "06:30",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "First delivery pickup",
+        "duration_min": 30
+      },
+      {
+        "time": "07:00",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Delivery to client 1",
+        "duration_min": 30
+      },
+      {
+        "time": "07:30",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Delivery to client 2",
+        "duration_min": 30
+      },
+      {
+        "time": "08:00",
+        "origin_type": "Other",
+        "dest_type": "Work",
+        "description": "Return for next set of orders",
+        "duration_min": 30
+      },
+      {
+        "time": "08:30",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Delivery to client 3",
+        "duration_min": 45
+      },
+      {
+        "time": "09:15",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Delivery to client 4",
+        "duration_min": 45
+      },
+      {
+        "time": "10:00",
+        "origin_type": "Other",
+        "dest_type": "Relax",
+        "description": "Coffee break, look for cheap charge",
+        "duration_min": 60
+      },
+      {
+        "time": "11:00",
+        "origin_type": "Relax",
+        "dest_type": "Work",
+        "description": "Afternoon orders pickup",
+        "duration_min": 30
+      },
+      {
+        "time": "11:30",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Delivery to client 5",
+        "duration_min": 45
+      },
+      {
+        "time": "12:15",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Delivery to client 6",
+        "duration_min": 45
+      },
+      {
+        "time": "13:00",
+        "origin_type": "Other",
+        "dest_type": "Home",
+        "description": "End of morning shift, return home",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "role_type": "GIG_WORKER",
+    "price_trait": "SENSITIVE",
+    "anxiety_trait": "CALM",
+    "name_tag": "The Profit Maximizer",
+    "description": "Drives until 5% battery, then finds the absolute cheapest spot.",
+    "daily_routine": [
+      {
+        "time": "07:00",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "Start gig, first pickup",
+        "duration_min": 45
+      },
+      {
+        "time": "07:45",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Delivery 1",
+        "duration_min": 45
+      },
+      {
+        "time": "08:30",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Delivery 2",
+        "duration_min": 45
+      },
+      {
+        "time": "09:15",
+        "origin_type": "Other",
+        "dest_type": "Work",
+        "description": "Pickup 2",
+        "duration_min": 45
+      },
+      {
+        "time": "10:00",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Delivery 3",
+        "duration_min": 60
+      },
+      {
+        "time": "11:00",
+        "origin_type": "Other",
+        "dest_type": "Relax",
+        "description": "Lunch break, minimal charging until critical",
+        "duration_min": 90
+      },
+      {
+        "time": "12:30",
+        "origin_type": "Relax",
+        "dest_type": "Work",
+        "description": "Pickup 3",
+        "duration_min": 45
+      },
+      {
+        "time": "13:15",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Delivery 4",
+        "duration_min": 45
+      },
+      {
+        "time": "14:00",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Delivery 5",
+        "duration_min": 45
+      },
+      {
+        "time": "14:45",
+        "origin_type": "Other",
+        "dest_type": "Home",
+        "description": "Return home, only charge if absolutely necessary",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "role_type": "GIG_WORKER",
+    "price_trait": "INSENSITIVE",
+    "anxiety_trait": "ANXIOUS",
+    "name_tag": "The High-End Driver",
+    "description": "High income, tops up constantly at Fast Chargers to avoid downtime.",
+    "daily_routine": [
+      {
+        "time": "07:00",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "Luxury rideshare client pickup",
+        "duration_min": 30
+      },
+      {
+        "time": "07:30",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Drop off client 1",
+        "duration_min": 30
+      },
+      {
+        "time": "08:00",
+        "origin_type": "Other",
+        "dest_type": "Work",
+        "description": "Return to hub for quick charge/clean",
+        "duration_min": 60
+      },
+      {
+        "time": "09:00",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Pickup client 2",
+        "duration_min": 30
+      },
+      {
+        "time": "09:30",
+        "origin_type": "Other",
+        "dest_type": "Relax",
+        "description": "Drop off client 2, quick coffee",
+        "duration_min": 30
+      },
+      {
+        "time": "10:00",
+        "origin_type": "Relax",
+        "dest_type": "Work",
+        "description": "Next client pickup",
+        "duration_min": 30
+      },
+      {
+        "time": "10:30",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Drop off client 3",
+        "duration_min": 30
+      },
+      {
+        "time": "11:00",
+        "origin_type": "Other",
+        "dest_type": "Work",
+        "description": "Return to hub for high-speed charge",
+        "duration_min": 60
+      },
+      {
+        "time": "12:00",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Lunch with colleagues (paid off-duty)",
+        "duration_min": 90
+      },
+      {
+        "time": "13:30",
+        "origin_type": "Other",
+        "dest_type": "Home",
+        "description": "Drive home, ensuring high battery",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "role_type": "GIG_WORKER",
+    "price_trait": "INSENSITIVE",
+    "anxiety_trait": "CALM",
+    "name_tag": "The Volume Runner",
+    "description": "Just drives. Charges at nearest fast charger only when empty.",
+    "daily_routine": [
+      {
+        "time": "06:00",
+        "origin_type": "Home",
+        "dest_type": "Work",
+        "description": "Start early morning delivery route",
+        "duration_min": 60
+      },
+      {
+        "time": "07:00",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Drop off 1",
+        "duration_min": 60
+      },
+      {
+        "time": "08:00",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Drop off 2",
+        "duration_min": 60
+      },
+      {
+        "time": "09:00",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Drop off 3",
+        "duration_min": 60
+      },
+      {
+        "time": "10:00",
+        "origin_type": "Other",
+        "dest_type": "Work",
+        "description": "Return to depot for new assignments",
+        "duration_min": 60
+      },
+      {
+        "time": "11:00",
+        "origin_type": "Work",
+        "dest_type": "Relax",
+        "description": "Lunch break",
+        "duration_min": 60
+      },
+      {
+        "time": "12:00",
+        "origin_type": "Relax",
+        "dest_type": "Work",
+        "description": "Back to depot for afternoon shift",
+        "duration_min": 60
+      },
+      {
+        "time": "13:00",
+        "origin_type": "Work",
+        "dest_type": "Other",
+        "description": "Drop off 4",
+        "duration_min": 60
+      },
+      {
+        "time": "14:00",
+        "origin_type": "Other",
+        "dest_type": "Other",
+        "description": "Drop off 5",
+        "duration_min": 60
+      },
+      {
+        "time": "15:00",
+        "origin_type": "Other",
+        "dest_type": "Home",
+        "description": "End day, drive home",
+        "duration_min": 30
+      }
+    ]
+  }
+]

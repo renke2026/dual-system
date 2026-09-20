@@ -1,0 +1,5508 @@
+[
+  {
+    "id": "agent_1_COMMUTER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_1_COMMUTER_SENSITIVE_ANXIOUS",
+      "name": "The Worried Saver_0",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, but constantly checks battery and looks for cheap slow chargers.",
+      "range_anxiety_level": 0.71,
+      "price_sensitivity": 0.91,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_1_COMMUTER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_1_COMMUTER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ21_3",
+            "type": "Home",
+            "x": 16100.74,
+            "y": 10325.9025,
+            "edge_id": "edge21_20",
+            "taz_id": "TAZ21"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_1",
+            "type": "Work",
+            "x": 20394.2525,
+            "y": 4967.415,
+            "edge_id": "edge25_29",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T07:53:00",
+          "distance_km": 13.7
+        },
+        {
+          "trip_id": "agent_1_COMMUTER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ25_1",
+            "type": "Work",
+            "x": 20394.2525,
+            "y": 4967.415,
+            "edge_id": "edge25_29",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T16:00:00",
+          "latest_arrival_time": "2025-05-20T16:39:00",
+          "distance_km": 37.42
+        },
+        {
+          "trip_id": "agent_1_COMMUTER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ21_3",
+            "type": "Home",
+            "x": 16100.74,
+            "y": 10325.9025,
+            "edge_id": "edge21_20",
+            "taz_id": "TAZ21"
+          },
+          "depart_time": "2025-05-20T17:15:00",
+          "latest_arrival_time": "2025-05-20T17:56:00",
+          "distance_km": 32.03
+        }
+      ],
+      "initial_soc": 0.35
+    }
+  },
+  {
+    "id": "agent_2_COMMUTER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_2_COMMUTER_SENSITIVE_ANXIOUS",
+      "name": "The Worried Saver_1",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, but constantly checks battery and looks for cheap slow chargers.",
+      "range_anxiety_level": 0.86,
+      "price_sensitivity": 0.91,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_2_COMMUTER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_2_COMMUTER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ21_0",
+            "type": "Home",
+            "x": 16075.1875,
+            "y": 10319.835,
+            "edge_id": "edge21_24",
+            "taz_id": "TAZ21"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ6_1",
+            "type": "Work",
+            "x": 3969.09,
+            "y": 12106.4575,
+            "edge_id": "edge6_10",
+            "taz_id": "TAZ6"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:02:00",
+          "distance_km": 23.04
+        },
+        {
+          "trip_id": "agent_2_COMMUTER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ6_1",
+            "type": "Work",
+            "x": 3969.09,
+            "y": 12106.4575,
+            "edge_id": "edge6_10",
+            "taz_id": "TAZ6"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_2",
+            "type": "Other",
+            "x": 529.7175000000001,
+            "y": 11269.7375,
+            "edge_id": "edge5_28",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T16:00:00",
+          "latest_arrival_time": "2025-05-20T16:35:00",
+          "distance_km": 23.65
+        },
+        {
+          "trip_id": "agent_2_COMMUTER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ5_2",
+            "type": "Other",
+            "x": 529.7175000000001,
+            "y": 11269.7375,
+            "edge_id": "edge5_28",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ21_0",
+            "type": "Home",
+            "x": 16075.1875,
+            "y": 10319.835,
+            "edge_id": "edge21_24",
+            "taz_id": "TAZ21"
+          },
+          "depart_time": "2025-05-20T17:15:00",
+          "latest_arrival_time": "2025-05-20T17:54:00",
+          "distance_km": 28.07
+        }
+      ],
+      "initial_soc": 0.73
+    }
+  },
+  {
+    "id": "agent_3_COMMUTER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_3_COMMUTER_SENSITIVE_ANXIOUS",
+      "name": "The Worried Saver_2",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, but constantly checks battery and looks for cheap slow chargers.",
+      "range_anxiety_level": 0.73,
+      "price_sensitivity": 0.83,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_3_COMMUTER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_3_COMMUTER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ13_3",
+            "type": "Home",
+            "x": 16011.170000000002,
+            "y": 15038.365,
+            "edge_id": "edge13_21",
+            "taz_id": "TAZ13"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ31_3",
+            "type": "Work",
+            "x": 30780.075,
+            "y": 15185.99,
+            "edge_id": "edge31_37",
+            "taz_id": "TAZ31"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:08:00",
+          "distance_km": 27.48
+        },
+        {
+          "trip_id": "agent_3_COMMUTER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ31_3",
+            "type": "Work",
+            "x": 30780.075,
+            "y": 15185.99,
+            "edge_id": "edge31_37",
+            "taz_id": "TAZ31"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_1",
+            "type": "Other",
+            "x": 8457.125,
+            "y": 3542.4825,
+            "edge_id": "edge28_23",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T16:00:00",
+          "latest_arrival_time": "2025-05-20T16:44:00",
+          "distance_km": 34.19
+        },
+        {
+          "trip_id": "agent_3_COMMUTER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ28_1",
+            "type": "Other",
+            "x": 8457.125,
+            "y": 3542.4825,
+            "edge_id": "edge28_23",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ13_3",
+            "type": "Home",
+            "x": 16011.170000000002,
+            "y": 15038.365,
+            "edge_id": "edge13_21",
+            "taz_id": "TAZ13"
+          },
+          "depart_time": "2025-05-20T17:15:00",
+          "latest_arrival_time": "2025-05-20T17:50:00",
+          "distance_km": 21.2
+        }
+      ],
+      "initial_soc": 0.35
+    }
+  },
+  {
+    "id": "agent_4_COMMUTER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_4_COMMUTER_SENSITIVE_ANXIOUS",
+      "name": "The Worried Saver_3",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, but constantly checks battery and looks for cheap slow chargers.",
+      "range_anxiety_level": 0.9,
+      "price_sensitivity": 0.77,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_4_COMMUTER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_4_COMMUTER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ26_0",
+            "type": "Home",
+            "x": 21636.9425,
+            "y": -1.3999999999999997,
+            "edge_id": "edge26_30",
+            "taz_id": "TAZ26"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ17_2",
+            "type": "Work",
+            "x": 22283.225,
+            "y": 16654.7125,
+            "edge_id": "edge17_32",
+            "taz_id": "TAZ17"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:11:00",
+          "distance_km": 35.62
+        },
+        {
+          "trip_id": "agent_4_COMMUTER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ17_2",
+            "type": "Work",
+            "x": 22283.225,
+            "y": 16654.7125,
+            "edge_id": "edge17_32",
+            "taz_id": "TAZ17"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ27_2",
+            "type": "Other",
+            "x": 10494.2425,
+            "y": 1511.4250000000002,
+            "edge_id": "edge27_26",
+            "taz_id": "TAZ27"
+          },
+          "depart_time": "2025-05-20T16:00:00",
+          "latest_arrival_time": "2025-05-20T16:53:00",
+          "distance_km": 47.34
+        },
+        {
+          "trip_id": "agent_4_COMMUTER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ27_2",
+            "type": "Other",
+            "x": 10494.2425,
+            "y": 1511.4250000000002,
+            "edge_id": "edge27_26",
+            "taz_id": "TAZ27"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ26_0",
+            "type": "Home",
+            "x": 21636.9425,
+            "y": -1.3999999999999997,
+            "edge_id": "edge26_30",
+            "taz_id": "TAZ26"
+          },
+          "depart_time": "2025-05-20T17:15:00",
+          "latest_arrival_time": "2025-05-20T17:46:00",
+          "distance_km": 20.33
+        }
+      ],
+      "initial_soc": 0.35
+    }
+  },
+  {
+    "id": "agent_5_COMMUTER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_5_COMMUTER_SENSITIVE_CALM",
+      "name": "The Strategic Optimizer_0",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, waits until the last minute to charge at the cheapest rate.",
+      "range_anxiety_level": 0.28,
+      "price_sensitivity": 0.82,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_5_COMMUTER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_5_COMMUTER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ13_1",
+            "type": "Home",
+            "x": 16054.439999999999,
+            "y": 15073.36,
+            "edge_id": "edge13_14",
+            "taz_id": "TAZ13"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ2_2",
+            "type": "Work",
+            "x": 6710.99,
+            "y": 26307.8975,
+            "edge_id": "edge2_8",
+            "taz_id": "TAZ2"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:35:00",
+          "distance_km": 26.21
+        },
+        {
+          "trip_id": "agent_5_COMMUTER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ2_2",
+            "type": "Work",
+            "x": 6710.99,
+            "y": 26307.8975,
+            "edge_id": "edge2_8",
+            "taz_id": "TAZ2"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T17:12:00",
+          "distance_km": 35.44
+        },
+        {
+          "trip_id": "agent_5_COMMUTER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ13_1",
+            "type": "Home",
+            "x": 16054.439999999999,
+            "y": 15073.36,
+            "edge_id": "edge13_14",
+            "taz_id": "TAZ13"
+          },
+          "depart_time": "2025-05-20T17:20:00",
+          "latest_arrival_time": "2025-05-20T17:52:00",
+          "distance_km": 28.74
+        }
+      ],
+      "initial_soc": 0.66
+    }
+  },
+  {
+    "id": "agent_6_COMMUTER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_6_COMMUTER_SENSITIVE_CALM",
+      "name": "The Strategic Optimizer_1",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, waits until the last minute to charge at the cheapest rate.",
+      "range_anxiety_level": 0.12,
+      "price_sensitivity": 0.95,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_6_COMMUTER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_6_COMMUTER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ13_1",
+            "type": "Home",
+            "x": 16054.439999999999,
+            "y": 15073.36,
+            "edge_id": "edge13_14",
+            "taz_id": "TAZ13"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ22_2",
+            "type": "Work",
+            "x": 14040.837500000001,
+            "y": 11036.475,
+            "edge_id": "edge22_7",
+            "taz_id": "TAZ22"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:24:00",
+          "distance_km": 18.67
+        },
+        {
+          "trip_id": "agent_6_COMMUTER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ22_2",
+            "type": "Work",
+            "x": 14040.837500000001,
+            "y": 11036.475,
+            "edge_id": "edge22_7",
+            "taz_id": "TAZ22"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ36_0",
+            "type": "Other",
+            "x": 36122.1875,
+            "y": 23232.41,
+            "edge_id": "edge36_34",
+            "taz_id": "TAZ36"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T17:29:00",
+          "distance_km": 54.25
+        },
+        {
+          "trip_id": "agent_6_COMMUTER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ36_0",
+            "type": "Other",
+            "x": 36122.1875,
+            "y": 23232.41,
+            "edge_id": "edge36_34",
+            "taz_id": "TAZ36"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ13_1",
+            "type": "Home",
+            "x": 16054.439999999999,
+            "y": 15073.36,
+            "edge_id": "edge13_14",
+            "taz_id": "TAZ13"
+          },
+          "depart_time": "2025-05-20T17:20:00",
+          "latest_arrival_time": "2025-05-20T17:49:00",
+          "distance_km": 23.66
+        }
+      ],
+      "initial_soc": 0.37
+    }
+  },
+  {
+    "id": "agent_7_COMMUTER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_7_COMMUTER_SENSITIVE_CALM",
+      "name": "The Strategic Optimizer_2",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, waits until the last minute to charge at the cheapest rate.",
+      "range_anxiety_level": 0.08,
+      "price_sensitivity": 0.89,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_7_COMMUTER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_7_COMMUTER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ33_3",
+            "type": "Home",
+            "x": 27084.9,
+            "y": 22129.394999999997,
+            "edge_id": "edge33_32",
+            "taz_id": "TAZ33"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ35_2",
+            "type": "Work",
+            "x": 23404.275,
+            "y": 21141.775,
+            "edge_id": "edge35_33",
+            "taz_id": "TAZ35"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:28:00",
+          "distance_km": 15.36
+        },
+        {
+          "trip_id": "agent_7_COMMUTER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ35_2",
+            "type": "Work",
+            "x": 23404.275,
+            "y": 21141.775,
+            "edge_id": "edge35_33",
+            "taz_id": "TAZ35"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_2",
+            "type": "Other",
+            "x": 8447.1975,
+            "y": 3518.5525,
+            "edge_id": "edge28_27",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T17:03:00",
+          "distance_km": 37.09
+        },
+        {
+          "trip_id": "agent_7_COMMUTER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ28_2",
+            "type": "Other",
+            "x": 8447.1975,
+            "y": 3518.5525,
+            "edge_id": "edge28_27",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ33_3",
+            "type": "Home",
+            "x": 27084.9,
+            "y": 22129.394999999997,
+            "edge_id": "edge33_32",
+            "taz_id": "TAZ33"
+          },
+          "depart_time": "2025-05-20T17:20:00",
+          "latest_arrival_time": "2025-05-20T18:02:00",
+          "distance_km": 36.61
+        }
+      ],
+      "initial_soc": 0.46
+    }
+  },
+  {
+    "id": "agent_8_COMMUTER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_8_COMMUTER_SENSITIVE_CALM",
+      "name": "The Strategic Optimizer_3",
+      "role_type": "COMMUTER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, waits until the last minute to charge at the cheapest rate.",
+      "range_anxiety_level": 0.11,
+      "price_sensitivity": 0.77,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_8_COMMUTER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_8_COMMUTER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ4_1",
+            "type": "Home",
+            "x": 23242.18,
+            "y": 29115.6225,
+            "edge_id": "edge4_35",
+            "taz_id": "TAZ4"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ9_2",
+            "type": "Work",
+            "x": 36060.985,
+            "y": 15667.9525,
+            "edge_id": "edge9_31",
+            "taz_id": "TAZ9"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:38:00",
+          "distance_km": 30.02
+        },
+        {
+          "trip_id": "agent_8_COMMUTER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ9_2",
+            "type": "Work",
+            "x": 36060.985,
+            "y": 15667.9525,
+            "edge_id": "edge9_31",
+            "taz_id": "TAZ9"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T17:10:00",
+          "distance_km": 38.13
+        },
+        {
+          "trip_id": "agent_8_COMMUTER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ4_1",
+            "type": "Home",
+            "x": 23242.18,
+            "y": 29115.6225,
+            "edge_id": "edge4_35",
+            "taz_id": "TAZ4"
+          },
+          "depart_time": "2025-05-20T17:20:00",
+          "latest_arrival_time": "2025-05-20T18:07:00",
+          "distance_km": 39.88
+        }
+      ],
+      "initial_soc": 0.42
+    }
+  },
+  {
+    "id": "agent_9_COMMUTER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_9_COMMUTER_INSENSITIVE_ANXIOUS",
+      "name": "The Safety First_0",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, charges immediately upon arrival regardless of cost.",
+      "range_anxiety_level": 0.75,
+      "price_sensitivity": 0.07,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_9_COMMUTER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_9_COMMUTER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ1_0",
+            "type": "Home",
+            "x": -4.29,
+            "y": 20995.004999999997,
+            "edge_id": "edge1_5",
+            "taz_id": "TAZ1"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_2",
+            "type": "Work",
+            "x": 20350.775,
+            "y": 4994.895,
+            "edge_id": "edge25_20",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T08:28:00",
+          "distance_km": 36.2
+        },
+        {
+          "trip_id": "agent_9_COMMUTER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ25_2",
+            "type": "Work",
+            "x": 20350.775,
+            "y": 4994.895,
+            "edge_id": "edge25_20",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ29_0",
+            "type": "Relax",
+            "x": 26040.075,
+            "y": 8038.735000000001,
+            "edge_id": "edge29_30",
+            "taz_id": "TAZ29"
+          },
+          "depart_time": "2025-05-20T16:15:00",
+          "latest_arrival_time": "2025-05-20T16:46:00",
+          "distance_km": 19.49
+        },
+        {
+          "trip_id": "agent_9_COMMUTER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ29_0",
+            "type": "Relax",
+            "x": 26040.075,
+            "y": 8038.735000000001,
+            "edge_id": "edge29_30",
+            "taz_id": "TAZ29"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ1_0",
+            "type": "Home",
+            "x": -4.29,
+            "y": 20995.004999999997,
+            "edge_id": "edge1_5",
+            "taz_id": "TAZ1"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:44:00",
+          "distance_km": 53.36
+        }
+      ],
+      "initial_soc": 0.41
+    }
+  },
+  {
+    "id": "agent_10_COMMUTER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_10_COMMUTER_INSENSITIVE_ANXIOUS",
+      "name": "The Safety First_1",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, charges immediately upon arrival regardless of cost.",
+      "range_anxiety_level": 0.98,
+      "price_sensitivity": 0.0,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_10_COMMUTER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_10_COMMUTER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ26_1",
+            "type": "Home",
+            "x": 21619.1875,
+            "y": 23.849999999999998,
+            "edge_id": "edge26_25",
+            "taz_id": "TAZ26"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_1",
+            "type": "Work",
+            "x": 20394.2525,
+            "y": 4967.415,
+            "edge_id": "edge25_29",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T08:04:00",
+          "distance_km": 11.46
+        },
+        {
+          "trip_id": "agent_10_COMMUTER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ25_1",
+            "type": "Work",
+            "x": 20394.2525,
+            "y": 4967.415,
+            "edge_id": "edge25_29",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ12_2",
+            "type": "Relax",
+            "x": 17591.35,
+            "y": 18737.019999999997,
+            "edge_id": "edge12_17",
+            "taz_id": "TAZ12"
+          },
+          "depart_time": "2025-05-20T16:15:00",
+          "latest_arrival_time": "2025-05-20T16:53:00",
+          "distance_km": 29.09
+        },
+        {
+          "trip_id": "agent_10_COMMUTER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ12_2",
+            "type": "Relax",
+            "x": 17591.35,
+            "y": 18737.019999999997,
+            "edge_id": "edge12_17",
+            "taz_id": "TAZ12"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ26_1",
+            "type": "Home",
+            "x": 21619.1875,
+            "y": 23.849999999999998,
+            "edge_id": "edge26_25",
+            "taz_id": "TAZ26"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:20:00",
+          "distance_km": 26.97
+        }
+      ],
+      "initial_soc": 0.58
+    }
+  },
+  {
+    "id": "agent_11_COMMUTER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_11_COMMUTER_INSENSITIVE_ANXIOUS",
+      "name": "The Safety First_2",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, charges immediately upon arrival regardless of cost.",
+      "range_anxiety_level": 0.75,
+      "price_sensitivity": 0.24,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_11_COMMUTER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_11_COMMUTER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ8_2",
+            "type": "Home",
+            "x": 10339.2725,
+            "y": 19428.949999999997,
+            "edge_id": "edge8_11",
+            "taz_id": "TAZ8"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ6_0",
+            "type": "Work",
+            "x": 3992.525,
+            "y": 12092.73,
+            "edge_id": "edge6_7",
+            "taz_id": "TAZ6"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T08:21:00",
+          "distance_km": 25.38
+        },
+        {
+          "trip_id": "agent_11_COMMUTER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ6_0",
+            "type": "Work",
+            "x": 3992.525,
+            "y": 12092.73,
+            "edge_id": "edge6_7",
+            "taz_id": "TAZ6"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ29_0",
+            "type": "Relax",
+            "x": 26040.075,
+            "y": 8038.735000000001,
+            "edge_id": "edge29_30",
+            "taz_id": "TAZ29"
+          },
+          "depart_time": "2025-05-20T16:15:00",
+          "latest_arrival_time": "2025-05-20T17:02:00",
+          "distance_km": 32.17
+        },
+        {
+          "trip_id": "agent_11_COMMUTER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ29_0",
+            "type": "Relax",
+            "x": 26040.075,
+            "y": 8038.735000000001,
+            "edge_id": "edge29_30",
+            "taz_id": "TAZ29"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ8_2",
+            "type": "Home",
+            "x": 10339.2725,
+            "y": 19428.949999999997,
+            "edge_id": "edge8_11",
+            "taz_id": "TAZ8"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:34:00",
+          "distance_km": 41.59
+        }
+      ],
+      "initial_soc": 0.37
+    }
+  },
+  {
+    "id": "agent_12_COMMUTER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_12_COMMUTER_INSENSITIVE_ANXIOUS",
+      "name": "The Safety First_3",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Fixed job, charges immediately upon arrival regardless of cost.",
+      "range_anxiety_level": 0.71,
+      "price_sensitivity": 0.02,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_12_COMMUTER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_12_COMMUTER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ21_0",
+            "type": "Home",
+            "x": 16075.1875,
+            "y": 10319.835,
+            "edge_id": "edge21_24",
+            "taz_id": "TAZ21"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_0",
+            "type": "Work",
+            "x": 20324.18,
+            "y": 4963.9775,
+            "edge_id": "edge25_24",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T08:06:00",
+          "distance_km": 14.99
+        },
+        {
+          "trip_id": "agent_12_COMMUTER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ25_0",
+            "type": "Work",
+            "x": 20324.18,
+            "y": 4963.9775,
+            "edge_id": "edge25_24",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ12_0",
+            "type": "Relax",
+            "x": 17549.8175,
+            "y": 18784.95,
+            "edge_id": "edge12_11",
+            "taz_id": "TAZ12"
+          },
+          "depart_time": "2025-05-20T16:15:00",
+          "latest_arrival_time": "2025-05-20T16:49:00",
+          "distance_km": 25.2
+        },
+        {
+          "trip_id": "agent_12_COMMUTER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ12_0",
+            "type": "Relax",
+            "x": 17549.8175,
+            "y": 18784.95,
+            "edge_id": "edge12_11",
+            "taz_id": "TAZ12"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ21_0",
+            "type": "Home",
+            "x": 16075.1875,
+            "y": 10319.835,
+            "edge_id": "edge21_24",
+            "taz_id": "TAZ21"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:19:00",
+          "distance_km": 26.79
+        }
+      ],
+      "initial_soc": 0.58
+    }
+  },
+  {
+    "id": "agent_13_COMMUTER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_13_COMMUTER_INSENSITIVE_CALM",
+      "name": "The Efficient Elite_0",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, only charges when necessary, prefers fast charging.",
+      "range_anxiety_level": 0.04,
+      "price_sensitivity": 0.05,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_13_COMMUTER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_13_COMMUTER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ4_2",
+            "type": "Home",
+            "x": 23225.405000000002,
+            "y": 29171.2175,
+            "edge_id": "edge4_3",
+            "taz_id": "TAZ4"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_1",
+            "type": "Work",
+            "x": 20394.2525,
+            "y": 4967.415,
+            "edge_id": "edge25_29",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T09:10:00",
+          "distance_km": 40.95
+        },
+        {
+          "trip_id": "agent_13_COMMUTER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ25_1",
+            "type": "Work",
+            "x": 20394.2525,
+            "y": 4967.415,
+            "edge_id": "edge25_29",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ12_3",
+            "type": "Relax",
+            "x": 17548.427499999998,
+            "y": 18738.239999999998,
+            "edge_id": "edge12_13",
+            "taz_id": "TAZ12"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T17:07:00",
+          "distance_km": 27.97
+        },
+        {
+          "trip_id": "agent_13_COMMUTER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ12_3",
+            "type": "Relax",
+            "x": 17548.427499999998,
+            "y": 18738.239999999998,
+            "edge_id": "edge12_13",
+            "taz_id": "TAZ12"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ4_2",
+            "type": "Home",
+            "x": 23225.405000000002,
+            "y": 29171.2175,
+            "edge_id": "edge4_3",
+            "taz_id": "TAZ4"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:24:00",
+          "distance_km": 32.17
+        }
+      ],
+      "initial_soc": 0.58
+    }
+  },
+  {
+    "id": "agent_14_COMMUTER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_14_COMMUTER_INSENSITIVE_CALM",
+      "name": "The Efficient Elite_1",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, only charges when necessary, prefers fast charging.",
+      "range_anxiety_level": 0.02,
+      "price_sensitivity": 0.16,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_14_COMMUTER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_14_COMMUTER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ17_3",
+            "type": "Work",
+            "x": 22248.719999999998,
+            "y": 16625.2325,
+            "edge_id": "edge17_16",
+            "taz_id": "TAZ17"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T08:58:00",
+          "distance_km": 23.67
+        },
+        {
+          "trip_id": "agent_14_COMMUTER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ17_3",
+            "type": "Work",
+            "x": 22248.719999999998,
+            "y": 16625.2325,
+            "edge_id": "edge17_16",
+            "taz_id": "TAZ17"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ19_1",
+            "type": "Relax",
+            "x": 21460.8325,
+            "y": 8624.035,
+            "edge_id": "edge19_25",
+            "taz_id": "TAZ19"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T16:46:00",
+          "distance_km": 11.77
+        },
+        {
+          "trip_id": "agent_14_COMMUTER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ19_1",
+            "type": "Relax",
+            "x": 21460.8325,
+            "y": 8624.035,
+            "edge_id": "edge19_25",
+            "taz_id": "TAZ19"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:16:00",
+          "distance_km": 24.22
+        }
+      ],
+      "initial_soc": 0.69
+    }
+  },
+  {
+    "id": "agent_15_COMMUTER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_15_COMMUTER_INSENSITIVE_CALM",
+      "name": "The Efficient Elite_2",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, only charges when necessary, prefers fast charging.",
+      "range_anxiety_level": 0.24,
+      "price_sensitivity": 0.02,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_15_COMMUTER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_15_COMMUTER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ13_3",
+            "type": "Home",
+            "x": 16011.170000000002,
+            "y": 15038.365,
+            "edge_id": "edge13_21",
+            "taz_id": "TAZ13"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ17_0",
+            "type": "Work",
+            "x": 22268.5875,
+            "y": 16677.36,
+            "edge_id": "edge17_35",
+            "taz_id": "TAZ17"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T08:55:00",
+          "distance_km": 20.3
+        },
+        {
+          "trip_id": "agent_15_COMMUTER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ17_0",
+            "type": "Work",
+            "x": 22268.5875,
+            "y": 16677.36,
+            "edge_id": "edge17_35",
+            "taz_id": "TAZ17"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ24_0",
+            "type": "Relax",
+            "x": 15424.7575,
+            "y": 5144.4349999999995,
+            "edge_id": "edge24_25",
+            "taz_id": "TAZ24"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T17:06:00",
+          "distance_km": 29.51
+        },
+        {
+          "trip_id": "agent_15_COMMUTER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ24_0",
+            "type": "Relax",
+            "x": 15424.7575,
+            "y": 5144.4349999999995,
+            "edge_id": "edge24_25",
+            "taz_id": "TAZ24"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ13_3",
+            "type": "Home",
+            "x": 16011.170000000002,
+            "y": 15038.365,
+            "edge_id": "edge13_21",
+            "taz_id": "TAZ13"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:14:00",
+          "distance_km": 21.56
+        }
+      ],
+      "initial_soc": 0.33
+    }
+  },
+  {
+    "id": "agent_16_COMMUTER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_16_COMMUTER_INSENSITIVE_CALM",
+      "name": "The Efficient Elite_3",
+      "role_type": "COMMUTER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Fixed job, only charges when necessary, prefers fast charging.",
+      "range_anxiety_level": 0.12,
+      "price_sensitivity": 0.0,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_16_COMMUTER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_16_COMMUTER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ4_1",
+            "type": "Home",
+            "x": 23242.18,
+            "y": 29115.6225,
+            "edge_id": "edge4_35",
+            "taz_id": "TAZ4"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_4",
+            "type": "Work",
+            "x": 20360.1475,
+            "y": 4930.5875,
+            "edge_id": "edge25_26",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T09:09:00",
+          "distance_km": 29.36
+        },
+        {
+          "trip_id": "agent_16_COMMUTER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Work_TAZ25_4",
+            "type": "Work",
+            "x": 20360.1475,
+            "y": 4930.5875,
+            "edge_id": "edge25_26",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ37_2",
+            "type": "Relax",
+            "x": 28651.754999999997,
+            "y": 10678.6175,
+            "edge_id": "edge37_29",
+            "taz_id": "TAZ37"
+          },
+          "depart_time": "2025-05-20T16:30:00",
+          "latest_arrival_time": "2025-05-20T17:00:00",
+          "distance_km": 23.91
+        },
+        {
+          "trip_id": "agent_16_COMMUTER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Relax_TAZ37_2",
+            "type": "Relax",
+            "x": 28651.754999999997,
+            "y": 10678.6175,
+            "edge_id": "edge37_29",
+            "taz_id": "TAZ37"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ4_1",
+            "type": "Home",
+            "x": 23242.18,
+            "y": 29115.6225,
+            "edge_id": "edge4_35",
+            "taz_id": "TAZ4"
+          },
+          "depart_time": "2025-05-20T17:45:00",
+          "latest_arrival_time": "2025-05-20T18:25:00",
+          "distance_km": 35.95
+        }
+      ],
+      "initial_soc": 0.41
+    }
+  },
+  {
+    "id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "name": "The Grinding Panic_0",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Drives all day, stressed about range, hunts for cheapest electrons.",
+      "range_anxiety_level": 0.84,
+      "price_sensitivity": 0.76,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ8_2",
+            "type": "Home",
+            "x": 10339.2725,
+            "y": 19428.949999999997,
+            "edge_id": "edge8_11",
+            "taz_id": "TAZ8"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ2_1",
+            "type": "Work",
+            "x": 6685.3150000000005,
+            "y": 26327.005,
+            "edge_id": "edge2_1",
+            "taz_id": "TAZ2"
+          },
+          "depart_time": "2025-05-20T06:30:00",
+          "latest_arrival_time": "2025-05-20T07:01:00",
+          "distance_km": 23.0
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Work_TAZ2_1",
+            "type": "Work",
+            "x": 6685.3150000000005,
+            "y": 26327.005,
+            "edge_id": "edge2_1",
+            "taz_id": "TAZ2"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:53:00",
+          "distance_km": 46.72
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:17:00",
+          "distance_km": 37.47
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ12_1",
+            "type": "Relax",
+            "x": 17596.8275,
+            "y": 18763.6125,
+            "edge_id": "edge12_35",
+            "taz_id": "TAZ12"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:40:00",
+          "distance_km": 31.49
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Relax_TAZ12_1",
+            "type": "Relax",
+            "x": 17596.8275,
+            "y": 18763.6125,
+            "edge_id": "edge12_35",
+            "taz_id": "TAZ12"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ36_1",
+            "type": "Other",
+            "x": 36136.2,
+            "y": 23214.735,
+            "edge_id": "edge36_9",
+            "taz_id": "TAZ36"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T09:09:00",
+          "distance_km": 27.01
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Other_TAZ36_1",
+            "type": "Other",
+            "x": 36136.2,
+            "y": 23214.735,
+            "edge_id": "edge36_9",
+            "taz_id": "TAZ36"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ29_1",
+            "type": "Relax",
+            "x": 26002.535,
+            "y": 8070.33,
+            "edge_id": "edge29_18",
+            "taz_id": "TAZ29"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:36:00",
+          "distance_km": 24.59
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Relax_TAZ29_1",
+            "type": "Relax",
+            "x": 26002.535,
+            "y": 8070.33,
+            "edge_id": "edge29_18",
+            "taz_id": "TAZ29"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ35_1",
+            "type": "Work",
+            "x": 23369.4525,
+            "y": 21115.61,
+            "edge_id": "edge35_17",
+            "taz_id": "TAZ35"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:34:00",
+          "distance_km": 21.72
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Work_TAZ35_1",
+            "type": "Work",
+            "x": 23369.4525,
+            "y": 21115.61,
+            "edge_id": "edge35_17",
+            "taz_id": "TAZ35"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_2",
+            "type": "Other",
+            "x": 529.7175000000001,
+            "y": 11269.7375,
+            "edge_id": "edge5_28",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T11:30:00",
+          "latest_arrival_time": "2025-05-20T12:14:00",
+          "distance_km": 42.22
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ5_2",
+            "type": "Other",
+            "x": 529.7175000000001,
+            "y": 11269.7375,
+            "edge_id": "edge5_28",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_1",
+            "type": "Other",
+            "x": 8457.125,
+            "y": 3542.4825,
+            "edge_id": "edge28_23",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T12:15:00",
+          "latest_arrival_time": "2025-05-20T12:42:00",
+          "distance_km": 16.65
+        },
+        {
+          "trip_id": "agent_17_GIG_WORKER_SENSITIVE_ANXIOUS_t_10",
+          "origin_loc": {
+            "id": "Other_TAZ28_1",
+            "type": "Other",
+            "x": 8457.125,
+            "y": 3542.4825,
+            "edge_id": "edge28_23",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ8_2",
+            "type": "Home",
+            "x": 10339.2725,
+            "y": 19428.949999999997,
+            "edge_id": "edge8_11",
+            "taz_id": "TAZ8"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:42:00",
+          "distance_km": 28.66
+        }
+      ],
+      "initial_soc": 0.38
+    }
+  },
+  {
+    "id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "name": "The Grinding Panic_1",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Drives all day, stressed about range, hunts for cheapest electrons.",
+      "range_anxiety_level": 0.96,
+      "price_sensitivity": 0.98,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ21_1",
+            "type": "Home",
+            "x": 16065.25,
+            "y": 10352.0775,
+            "edge_id": "edge21_22",
+            "taz_id": "TAZ21"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ33_1",
+            "type": "Home",
+            "x": 27054.985,
+            "y": 22160.3,
+            "edge_id": "edge33_35",
+            "taz_id": "TAZ33"
+          },
+          "depart_time": "2025-05-20T06:30:00",
+          "latest_arrival_time": "2025-05-20T07:10:00",
+          "distance_km": 26.64
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Home_TAZ33_1",
+            "type": "Home",
+            "x": 27054.985,
+            "y": 22160.3,
+            "edge_id": "edge33_35",
+            "taz_id": "TAZ33"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_0",
+            "type": "Other",
+            "x": 7058.320000000001,
+            "y": 15557.355,
+            "edge_id": "edge7_8",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:41:00",
+          "distance_km": 31.13
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ7_0",
+            "type": "Other",
+            "x": 7058.320000000001,
+            "y": 15557.355,
+            "edge_id": "edge7_8",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T07:52:00",
+          "distance_km": 13.28
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ26_1",
+            "type": "Home",
+            "x": 21619.1875,
+            "y": 23.849999999999998,
+            "edge_id": "edge26_25",
+            "taz_id": "TAZ26"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:41:00",
+          "distance_km": 34.33
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Home_TAZ26_1",
+            "type": "Home",
+            "x": 21619.1875,
+            "y": 23.849999999999998,
+            "edge_id": "edge26_25",
+            "taz_id": "TAZ26"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T09:18:00",
+          "distance_km": 36.45
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ27_0",
+            "type": "Other",
+            "x": 10453.699999999999,
+            "y": 1537.6825,
+            "edge_id": "edge27_28",
+            "taz_id": "TAZ27"
+          },
+          "depart_time": "2025-05-20T09:15:00",
+          "latest_arrival_time": "2025-05-20T10:02:00",
+          "distance_km": 36.08
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Other_TAZ27_0",
+            "type": "Other",
+            "x": 10453.699999999999,
+            "y": 1537.6825,
+            "edge_id": "edge27_28",
+            "taz_id": "TAZ27"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ24_1",
+            "type": "Relax",
+            "x": 15390.11,
+            "y": 5172.035,
+            "edge_id": "edge24_23",
+            "taz_id": "TAZ24"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:21:00",
+          "distance_km": 14.57
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Relax_TAZ24_1",
+            "type": "Relax",
+            "x": 15390.11,
+            "y": 5172.035,
+            "edge_id": "edge24_23",
+            "taz_id": "TAZ24"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ37_2",
+            "type": "Relax",
+            "x": 28651.754999999997,
+            "y": 10678.6175,
+            "edge_id": "edge37_29",
+            "taz_id": "TAZ37"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:34:00",
+          "distance_km": 24.83
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Relax_TAZ37_2",
+            "type": "Relax",
+            "x": 28651.754999999997,
+            "y": 10678.6175,
+            "edge_id": "edge37_29",
+            "taz_id": "TAZ37"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T11:30:00",
+          "latest_arrival_time": "2025-05-20T12:12:00",
+          "distance_km": 33.41
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T12:15:00",
+          "latest_arrival_time": "2025-05-20T12:56:00",
+          "distance_km": 28.39
+        },
+        {
+          "trip_id": "agent_18_GIG_WORKER_SENSITIVE_ANXIOUS_t_10",
+          "origin_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ21_1",
+            "type": "Home",
+            "x": 16065.25,
+            "y": 10352.0775,
+            "edge_id": "edge21_22",
+            "taz_id": "TAZ21"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:38:00",
+          "distance_km": 31.28
+        }
+      ],
+      "initial_soc": 0.72
+    }
+  },
+  {
+    "id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "name": "The Grinding Panic_2",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Drives all day, stressed about range, hunts for cheapest electrons.",
+      "range_anxiety_level": 0.74,
+      "price_sensitivity": 0.92,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ1_2",
+            "type": "Home",
+            "x": 22.1,
+            "y": 21001.3625,
+            "edge_id": "edge1_10",
+            "taz_id": "TAZ1"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ33_1",
+            "type": "Home",
+            "x": 27054.985,
+            "y": 22160.3,
+            "edge_id": "edge33_35",
+            "taz_id": "TAZ33"
+          },
+          "depart_time": "2025-05-20T06:30:00",
+          "latest_arrival_time": "2025-05-20T07:19:00",
+          "distance_km": 38.96
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Home_TAZ33_1",
+            "type": "Home",
+            "x": 27054.985,
+            "y": 22160.3,
+            "edge_id": "edge33_35",
+            "taz_id": "TAZ33"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:30:00",
+          "distance_km": 20.93
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_0",
+            "type": "Other",
+            "x": 12904.41,
+            "y": 7033.1275,
+            "edge_id": "edge23_22",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:06:00",
+          "distance_km": 21.7
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ23_0",
+            "type": "Other",
+            "x": 12904.41,
+            "y": 7033.1275,
+            "edge_id": "edge23_22",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ16_3",
+            "type": "Relax",
+            "x": 22163.895,
+            "y": 12521.68,
+            "edge_id": "edge16_31",
+            "taz_id": "TAZ16"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:40:00",
+          "distance_km": 24.46
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Relax_TAZ16_3",
+            "type": "Relax",
+            "x": 22163.895,
+            "y": 12521.68,
+            "edge_id": "edge16_31",
+            "taz_id": "TAZ16"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T09:25:00",
+          "distance_km": 55.08
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T09:15:00",
+          "latest_arrival_time": "2025-05-20T09:49:00",
+          "distance_km": 23.34
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ10_1",
+            "type": "Relax",
+            "x": 3978.4125,
+            "y": 16671.175,
+            "edge_id": "edge10_7",
+            "taz_id": "TAZ10"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:24:00",
+          "distance_km": 12.38
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Relax_TAZ10_1",
+            "type": "Relax",
+            "x": 3978.4125,
+            "y": 16671.175,
+            "edge_id": "edge10_7",
+            "taz_id": "TAZ10"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ31_0",
+            "type": "Work",
+            "x": 30832.9575,
+            "y": 15209.55,
+            "edge_id": "edge31_9",
+            "taz_id": "TAZ31"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:44:00",
+          "distance_km": 36.78
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Work_TAZ31_0",
+            "type": "Work",
+            "x": 30832.9575,
+            "y": 15209.55,
+            "edge_id": "edge31_9",
+            "taz_id": "TAZ31"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_2",
+            "type": "Other",
+            "x": 22922.22,
+            "y": 8917.565,
+            "edge_id": "edge18_37",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T11:30:00",
+          "latest_arrival_time": "2025-05-20T12:09:00",
+          "distance_km": 27.4
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ18_2",
+            "type": "Other",
+            "x": 22922.22,
+            "y": 8917.565,
+            "edge_id": "edge18_37",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T12:15:00",
+          "latest_arrival_time": "2025-05-20T12:57:00",
+          "distance_km": 33.95
+        },
+        {
+          "trip_id": "agent_19_GIG_WORKER_SENSITIVE_ANXIOUS_t_10",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ1_2",
+            "type": "Home",
+            "x": 22.1,
+            "y": 21001.3625,
+            "edge_id": "edge1_10",
+            "taz_id": "TAZ1"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:33:00",
+          "distance_km": 20.78
+        }
+      ],
+      "initial_soc": 0.66
+    }
+  },
+  {
+    "id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "name": "The Grinding Panic_3",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "Drives all day, stressed about range, hunts for cheapest electrons.",
+      "range_anxiety_level": 0.77,
+      "price_sensitivity": 0.97,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ20_2",
+            "type": "Home",
+            "x": 18435.364999999998,
+            "y": 9463.125,
+            "edge_id": "edge20_21",
+            "taz_id": "TAZ20"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ35_2",
+            "type": "Work",
+            "x": 23404.275,
+            "y": 21141.775,
+            "edge_id": "edge35_33",
+            "taz_id": "TAZ35"
+          },
+          "depart_time": "2025-05-20T06:30:00",
+          "latest_arrival_time": "2025-05-20T07:05:00",
+          "distance_km": 21.13
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Work_TAZ35_2",
+            "type": "Work",
+            "x": 23404.275,
+            "y": 21141.775,
+            "edge_id": "edge35_33",
+            "taz_id": "TAZ35"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ36_0",
+            "type": "Other",
+            "x": 36122.1875,
+            "y": 23232.41,
+            "edge_id": "edge36_34",
+            "taz_id": "TAZ36"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:41:00",
+          "distance_km": 29.22
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ36_0",
+            "type": "Other",
+            "x": 36122.1875,
+            "y": 23232.41,
+            "edge_id": "edge36_34",
+            "taz_id": "TAZ36"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:18:00",
+          "distance_km": 37.26
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ20_3",
+            "type": "Home",
+            "x": 18460.609999999997,
+            "y": 9471.44,
+            "edge_id": "edge20_15",
+            "taz_id": "TAZ20"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:33:00",
+          "distance_km": 22.49
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Home_TAZ20_3",
+            "type": "Home",
+            "x": 18460.609999999997,
+            "y": 9471.44,
+            "edge_id": "edge20_15",
+            "taz_id": "TAZ20"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_0",
+            "type": "Other",
+            "x": 22866.299999999996,
+            "y": 8914.395,
+            "edge_id": "edge18_19",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T08:54:00",
+          "distance_km": 12.09
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ18_0",
+            "type": "Other",
+            "x": 22866.299999999996,
+            "y": 8914.395,
+            "edge_id": "edge18_19",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T09:15:00",
+          "latest_arrival_time": "2025-05-20T09:47:00",
+          "distance_km": 20.01
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ19_1",
+            "type": "Relax",
+            "x": 21460.8325,
+            "y": 8624.035,
+            "edge_id": "edge19_25",
+            "taz_id": "TAZ19"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:37:00",
+          "distance_km": 26.13
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Relax_TAZ19_1",
+            "type": "Relax",
+            "x": 21460.8325,
+            "y": 8624.035,
+            "edge_id": "edge19_25",
+            "taz_id": "TAZ19"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ22_0",
+            "type": "Work",
+            "x": 14063.144999999999,
+            "y": 11012.1625,
+            "edge_id": "edge22_21",
+            "taz_id": "TAZ22"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:28:00",
+          "distance_km": 15.31
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Work_TAZ22_0",
+            "type": "Work",
+            "x": 14063.144999999999,
+            "y": 11012.1625,
+            "edge_id": "edge22_21",
+            "taz_id": "TAZ22"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_2",
+            "type": "Other",
+            "x": 13630.880000000001,
+            "y": 23992.152499999997,
+            "edge_id": "edge11_3",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T11:30:00",
+          "latest_arrival_time": "2025-05-20T12:03:00",
+          "distance_km": 19.26
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ11_2",
+            "type": "Other",
+            "x": 13630.880000000001,
+            "y": 23992.152499999997,
+            "edge_id": "edge11_3",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T12:15:00",
+          "latest_arrival_time": "2025-05-20T12:49:00",
+          "distance_km": 19.27
+        },
+        {
+          "trip_id": "agent_20_GIG_WORKER_SENSITIVE_ANXIOUS_t_10",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ20_2",
+            "type": "Home",
+            "x": 18435.364999999998,
+            "y": 9463.125,
+            "edge_id": "edge20_21",
+            "taz_id": "TAZ20"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:36:00",
+          "distance_km": 24.56
+        }
+      ],
+      "initial_soc": 0.45
+    }
+  },
+  {
+    "id": "agent_21_GIG_WORKER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_21_GIG_WORKER_SENSITIVE_CALM",
+      "name": "The Profit Maximizer_0",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Drives until 5% battery, then finds the absolute cheapest spot.",
+      "range_anxiety_level": 0.04,
+      "price_sensitivity": 0.82,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_21_GIG_WORKER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ33_2",
+            "type": "Home",
+            "x": 27105.08,
+            "y": 22147.5,
+            "edge_id": "edge33_34",
+            "taz_id": "TAZ33"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ34_0",
+            "type": "Relax",
+            "x": 31625.287500000002,
+            "y": 21280.48,
+            "edge_id": "edge34_32",
+            "taz_id": "TAZ34"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:16:00",
+          "distance_km": 8.32
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Relax_TAZ34_0",
+            "type": "Relax",
+            "x": 31625.287500000002,
+            "y": 21280.48,
+            "edge_id": "edge34_32",
+            "taz_id": "TAZ34"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_2",
+            "type": "Other",
+            "x": 28925.735,
+            "y": 18701.97,
+            "edge_id": "edge32_33",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T07:57:00",
+          "distance_km": 7.61
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ32_2",
+            "type": "Other",
+            "x": 28925.735,
+            "y": 18701.97,
+            "edge_id": "edge32_33",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T09:05:00",
+          "distance_km": 31.85
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "depart_time": "2025-05-20T09:15:00",
+          "latest_arrival_time": "2025-05-20T09:52:00",
+          "distance_km": 28.41
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_2",
+            "type": "Other",
+            "x": 8447.1975,
+            "y": 3518.5525,
+            "edge_id": "edge28_27",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:37:00",
+          "distance_km": 29.81
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ28_2",
+            "type": "Other",
+            "x": 8447.1975,
+            "y": 3518.5525,
+            "edge_id": "edge28_27",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ12_2",
+            "type": "Relax",
+            "x": 17591.35,
+            "y": 18737.019999999997,
+            "edge_id": "edge12_17",
+            "taz_id": "TAZ12"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:32:00",
+          "distance_km": 27.77
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ12_2",
+            "type": "Relax",
+            "x": 17591.35,
+            "y": 18737.019999999997,
+            "edge_id": "edge12_17",
+            "taz_id": "TAZ12"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ24_3",
+            "type": "Relax",
+            "x": 15416.692500000001,
+            "y": 5176.275,
+            "edge_id": "edge24_21",
+            "taz_id": "TAZ24"
+          },
+          "depart_time": "2025-05-20T12:30:00",
+          "latest_arrival_time": "2025-05-20T13:00:00",
+          "distance_km": 26.48
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Relax_TAZ24_3",
+            "type": "Relax",
+            "x": 15416.692500000001,
+            "y": 5176.275,
+            "edge_id": "edge24_21",
+            "taz_id": "TAZ24"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_0",
+            "type": "Other",
+            "x": 7058.320000000001,
+            "y": 15557.355,
+            "edge_id": "edge7_8",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T13:15:00",
+          "latest_arrival_time": "2025-05-20T13:43:00",
+          "distance_km": 20.62
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ7_0",
+            "type": "Other",
+            "x": 7058.320000000001,
+            "y": 15557.355,
+            "edge_id": "edge7_8",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:33:00",
+          "distance_km": 29.16
+        },
+        {
+          "trip_id": "agent_21_GIG_WORKER_SENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ33_2",
+            "type": "Home",
+            "x": 27105.08,
+            "y": 22147.5,
+            "edge_id": "edge33_34",
+            "taz_id": "TAZ33"
+          },
+          "depart_time": "2025-05-20T14:45:00",
+          "latest_arrival_time": "2025-05-20T15:06:00",
+          "distance_km": 12.92
+        }
+      ],
+      "initial_soc": 0.6
+    }
+  },
+  {
+    "id": "agent_22_GIG_WORKER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_22_GIG_WORKER_SENSITIVE_CALM",
+      "name": "The Profit Maximizer_1",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Drives until 5% battery, then finds the absolute cheapest spot.",
+      "range_anxiety_level": 0.07,
+      "price_sensitivity": 0.87,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_22_GIG_WORKER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ1_0",
+            "type": "Home",
+            "x": -4.29,
+            "y": 20995.004999999997,
+            "edge_id": "edge1_5",
+            "taz_id": "TAZ1"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ17_0",
+            "type": "Work",
+            "x": 22268.5875,
+            "y": 16677.36,
+            "edge_id": "edge17_35",
+            "taz_id": "TAZ17"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:42:00",
+          "distance_km": 40.87
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Work_TAZ17_0",
+            "type": "Work",
+            "x": 22268.5875,
+            "y": 16677.36,
+            "edge_id": "edge17_35",
+            "taz_id": "TAZ17"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_2",
+            "type": "Other",
+            "x": 22922.22,
+            "y": 8917.565,
+            "edge_id": "edge18_37",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T08:14:00",
+          "distance_km": 24.52
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ18_2",
+            "type": "Other",
+            "x": 22922.22,
+            "y": 8917.565,
+            "edge_id": "edge18_37",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_1",
+            "type": "Other",
+            "x": 28936.5875,
+            "y": 18654.66,
+            "edge_id": "edge32_31",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T08:55:00",
+          "distance_km": 18.69
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ32_1",
+            "type": "Other",
+            "x": 28936.5875,
+            "y": 18654.66,
+            "edge_id": "edge32_31",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ6_1",
+            "type": "Work",
+            "x": 3969.09,
+            "y": 12106.4575,
+            "edge_id": "edge6_10",
+            "taz_id": "TAZ6"
+          },
+          "depart_time": "2025-05-20T09:15:00",
+          "latest_arrival_time": "2025-05-20T09:59:00",
+          "distance_km": 41.33
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Work_TAZ6_1",
+            "type": "Work",
+            "x": 3969.09,
+            "y": 12106.4575,
+            "edge_id": "edge6_10",
+            "taz_id": "TAZ6"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:42:00",
+          "distance_km": 36.95
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ34_2",
+            "type": "Relax",
+            "x": 31623.367499999997,
+            "y": 21307.475,
+            "edge_id": "edge34_33",
+            "taz_id": "TAZ34"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:16:00",
+          "distance_km": 8.32
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ34_2",
+            "type": "Relax",
+            "x": 31623.367499999997,
+            "y": 21307.475,
+            "edge_id": "edge34_33",
+            "taz_id": "TAZ34"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ26_0",
+            "type": "Home",
+            "x": 21636.9425,
+            "y": -1.3999999999999997,
+            "edge_id": "edge26_30",
+            "taz_id": "TAZ26"
+          },
+          "depart_time": "2025-05-20T12:30:00",
+          "latest_arrival_time": "2025-05-20T13:16:00",
+          "distance_km": 38.92
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Home_TAZ26_0",
+            "type": "Home",
+            "x": 21636.9425,
+            "y": -1.3999999999999997,
+            "edge_id": "edge26_30",
+            "taz_id": "TAZ26"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T13:15:00",
+          "latest_arrival_time": "2025-05-20T13:57:00",
+          "distance_km": 40.73
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_1",
+            "type": "Other",
+            "x": 8457.125,
+            "y": 3542.4825,
+            "edge_id": "edge28_23",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:38:00",
+          "distance_km": 30.36
+        },
+        {
+          "trip_id": "agent_22_GIG_WORKER_SENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ28_1",
+            "type": "Other",
+            "x": 8457.125,
+            "y": 3542.4825,
+            "edge_id": "edge28_23",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ1_0",
+            "type": "Home",
+            "x": -4.29,
+            "y": 20995.004999999997,
+            "edge_id": "edge1_5",
+            "taz_id": "TAZ1"
+          },
+          "depart_time": "2025-05-20T14:45:00",
+          "latest_arrival_time": "2025-05-20T15:27:00",
+          "distance_km": 35.89
+        }
+      ],
+      "initial_soc": 0.29
+    }
+  },
+  {
+    "id": "agent_23_GIG_WORKER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_23_GIG_WORKER_SENSITIVE_CALM",
+      "name": "The Profit Maximizer_2",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Drives until 5% battery, then finds the absolute cheapest spot.",
+      "range_anxiety_level": 0.11,
+      "price_sensitivity": 0.79,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_23_GIG_WORKER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ15_2",
+            "type": "Home",
+            "x": 18500.825,
+            "y": 12618.9925,
+            "edge_id": "edge15_14",
+            "taz_id": "TAZ15"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_1",
+            "type": "Other",
+            "x": 12861.534999999998,
+            "y": 6999.287499999999,
+            "edge_id": "edge23_28",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:27:00",
+          "distance_km": 21.66
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Other_TAZ23_1",
+            "type": "Other",
+            "x": 12861.534999999998,
+            "y": 6999.287499999999,
+            "edge_id": "edge23_28",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T08:07:00",
+          "distance_km": 16.65
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T09:00:00",
+          "distance_km": 22.36
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ10_2",
+            "type": "Relax",
+            "x": 3953.24,
+            "y": 16662.5425,
+            "edge_id": "edge10_6",
+            "taz_id": "TAZ10"
+          },
+          "depart_time": "2025-05-20T09:15:00",
+          "latest_arrival_time": "2025-05-20T09:30:00",
+          "distance_km": 7.8
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Relax_TAZ10_2",
+            "type": "Relax",
+            "x": 3953.24,
+            "y": 16662.5425,
+            "edge_id": "edge10_6",
+            "taz_id": "TAZ10"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:34:00",
+          "distance_km": 25.35
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ3_1",
+            "type": "Relax",
+            "x": 13587.282500000001,
+            "y": 26051.024999999998,
+            "edge_id": "edge3_2",
+            "taz_id": "TAZ3"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:29:00",
+          "distance_km": 20.09
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ3_1",
+            "type": "Relax",
+            "x": 13587.282500000001,
+            "y": 26051.024999999998,
+            "edge_id": "edge3_2",
+            "taz_id": "TAZ3"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T12:30:00",
+          "latest_arrival_time": "2025-05-20T13:13:00",
+          "distance_km": 35.16
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T13:15:00",
+          "latest_arrival_time": "2025-05-20T13:43:00",
+          "distance_km": 16.37
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ36_1",
+            "type": "Other",
+            "x": 36136.2,
+            "y": 23214.735,
+            "edge_id": "edge36_9",
+            "taz_id": "TAZ36"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:59:00",
+          "distance_km": 56.36
+        },
+        {
+          "trip_id": "agent_23_GIG_WORKER_SENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ36_1",
+            "type": "Other",
+            "x": 36136.2,
+            "y": 23214.735,
+            "edge_id": "edge36_9",
+            "taz_id": "TAZ36"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ15_2",
+            "type": "Home",
+            "x": 18500.825,
+            "y": 12618.9925,
+            "edge_id": "edge15_14",
+            "taz_id": "TAZ15"
+          },
+          "depart_time": "2025-05-20T14:45:00",
+          "latest_arrival_time": "2025-05-20T15:19:00",
+          "distance_km": 28.75
+        }
+      ],
+      "initial_soc": 0.52
+    }
+  },
+  {
+    "id": "agent_24_GIG_WORKER_SENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_24_GIG_WORKER_SENSITIVE_CALM",
+      "name": "The Profit Maximizer_3",
+      "role_type": "GIG_WORKER",
+      "price_trait": "SENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Drives until 5% battery, then finds the absolute cheapest spot.",
+      "range_anxiety_level": 0.18,
+      "price_sensitivity": 0.98,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_24_GIG_WORKER_SENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ1_1",
+            "type": "Home",
+            "x": 17.875,
+            "y": 21041.115,
+            "edge_id": "edge1_2",
+            "taz_id": "TAZ1"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ15_1",
+            "type": "Home",
+            "x": 18515.335,
+            "y": 12594.960000000001,
+            "edge_id": "edge15_16",
+            "taz_id": "TAZ15"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:35:00",
+          "distance_km": 32.13
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Home_TAZ15_1",
+            "type": "Home",
+            "x": 18515.335,
+            "y": 12594.960000000001,
+            "edge_id": "edge15_16",
+            "taz_id": "TAZ15"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T07:45:00",
+          "latest_arrival_time": "2025-05-20T08:20:00",
+          "distance_km": 27.81
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_0",
+            "type": "Other",
+            "x": 12904.41,
+            "y": 7033.1275,
+            "edge_id": "edge23_22",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T08:30:00",
+          "latest_arrival_time": "2025-05-20T08:58:00",
+          "distance_km": 18.94
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ23_0",
+            "type": "Other",
+            "x": 12904.41,
+            "y": 7033.1275,
+            "edge_id": "edge23_22",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ31_1",
+            "type": "Work",
+            "x": 30794.107500000002,
+            "y": 15237.259999999998,
+            "edge_id": "edge31_32",
+            "taz_id": "TAZ31"
+          },
+          "depart_time": "2025-05-20T09:15:00",
+          "latest_arrival_time": "2025-05-20T09:50:00",
+          "distance_km": 28.01
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Work_TAZ31_1",
+            "type": "Work",
+            "x": 30794.107500000002,
+            "y": 15237.259999999998,
+            "edge_id": "edge31_32",
+            "taz_id": "TAZ31"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:38:00",
+          "distance_km": 32.56
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ10_1",
+            "type": "Relax",
+            "x": 3978.4125,
+            "y": 16671.175,
+            "edge_id": "edge10_7",
+            "taz_id": "TAZ10"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:12:00",
+          "distance_km": 6.48
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ10_1",
+            "type": "Relax",
+            "x": 3978.4125,
+            "y": 16671.175,
+            "edge_id": "edge10_7",
+            "taz_id": "TAZ10"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ14_0",
+            "type": "Work",
+            "x": 17689.155,
+            "y": 15880.654999999999,
+            "edge_id": "edge14_17",
+            "taz_id": "TAZ14"
+          },
+          "depart_time": "2025-05-20T12:30:00",
+          "latest_arrival_time": "2025-05-20T12:55:00",
+          "distance_km": 21.76
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Work_TAZ14_0",
+            "type": "Work",
+            "x": 17689.155,
+            "y": 15880.654999999999,
+            "edge_id": "edge14_17",
+            "taz_id": "TAZ14"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_1",
+            "type": "Other",
+            "x": 12861.534999999998,
+            "y": 6999.287499999999,
+            "edge_id": "edge23_28",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T13:15:00",
+          "latest_arrival_time": "2025-05-20T13:46:00",
+          "distance_km": 27.48
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ23_1",
+            "type": "Other",
+            "x": 12861.534999999998,
+            "y": 6999.287499999999,
+            "edge_id": "edge23_28",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:37:00",
+          "distance_km": 27.56
+        },
+        {
+          "trip_id": "agent_24_GIG_WORKER_SENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ1_1",
+            "type": "Home",
+            "x": 17.875,
+            "y": 21041.115,
+            "edge_id": "edge1_2",
+            "taz_id": "TAZ1"
+          },
+          "depart_time": "2025-05-20T14:45:00",
+          "latest_arrival_time": "2025-05-20T15:30:00",
+          "distance_km": 41.33
+        }
+      ],
+      "initial_soc": 0.38
+    }
+  },
+  {
+    "id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "name": "The High-End Driver_0",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "High income, tops up constantly at Fast Chargers to avoid downtime.",
+      "range_anxiety_level": 0.88,
+      "price_sensitivity": 0.09,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ15_0",
+            "type": "Home",
+            "x": 18491.8775,
+            "y": 12580.2775,
+            "edge_id": "edge15_20",
+            "taz_id": "TAZ15"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ2_2",
+            "type": "Work",
+            "x": 6710.99,
+            "y": 26307.8975,
+            "edge_id": "edge2_8",
+            "taz_id": "TAZ2"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:38:00",
+          "distance_km": 32.91
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Work_TAZ2_2",
+            "type": "Work",
+            "x": 6710.99,
+            "y": 26307.8975,
+            "edge_id": "edge2_8",
+            "taz_id": "TAZ2"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_2",
+            "type": "Other",
+            "x": 28925.735,
+            "y": 18701.97,
+            "edge_id": "edge32_33",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:13:00",
+          "distance_km": 32.06
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ32_2",
+            "type": "Other",
+            "x": 28925.735,
+            "y": 18701.97,
+            "edge_id": "edge32_33",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ22_0",
+            "type": "Work",
+            "x": 14063.144999999999,
+            "y": 11012.1625,
+            "edge_id": "edge22_21",
+            "taz_id": "TAZ22"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:38:00",
+          "distance_km": 26.75
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Work_TAZ22_0",
+            "type": "Work",
+            "x": 14063.144999999999,
+            "y": 11012.1625,
+            "edge_id": "edge22_21",
+            "taz_id": "TAZ22"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_0",
+            "type": "Other",
+            "x": 542.79,
+            "y": 11293.3775,
+            "edge_id": "edge5_6",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:38:00",
+          "distance_km": 24.09
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ5_0",
+            "type": "Other",
+            "x": 542.79,
+            "y": 11293.3775,
+            "edge_id": "edge5_6",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ16_0",
+            "type": "Relax",
+            "x": 22122.365,
+            "y": 12528.105,
+            "edge_id": "edge16_15",
+            "taz_id": "TAZ16"
+          },
+          "depart_time": "2025-05-20T09:30:00",
+          "latest_arrival_time": "2025-05-20T10:10:00",
+          "distance_km": 31.31
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_5",
+          "origin_loc": {
+            "id": "Relax_TAZ16_0",
+            "type": "Relax",
+            "x": 22122.365,
+            "y": 12528.105,
+            "edge_id": "edge16_15",
+            "taz_id": "TAZ16"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ4_0",
+            "type": "Home",
+            "x": 23268.845,
+            "y": 29119.5,
+            "edge_id": "edge4_33",
+            "taz_id": "TAZ4"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:40:00",
+          "distance_km": 31.74
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Home_TAZ4_0",
+            "type": "Home",
+            "x": 23268.845,
+            "y": 29119.5,
+            "edge_id": "edge4_33",
+            "taz_id": "TAZ4"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T10:30:00",
+          "latest_arrival_time": "2025-05-20T11:19:00",
+          "distance_km": 38.61
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ17_0",
+            "type": "Work",
+            "x": 22268.5875,
+            "y": 16677.36,
+            "edge_id": "edge17_35",
+            "taz_id": "TAZ17"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:47:00",
+          "distance_km": 32.26
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Work_TAZ17_0",
+            "type": "Work",
+            "x": 22268.5875,
+            "y": 16677.36,
+            "edge_id": "edge17_35",
+            "taz_id": "TAZ17"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:33:00",
+          "distance_km": 21.72
+        },
+        {
+          "trip_id": "agent_25_GIG_WORKER_INSENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ15_0",
+            "type": "Home",
+            "x": 18491.8775,
+            "y": 12580.2775,
+            "edge_id": "edge15_20",
+            "taz_id": "TAZ15"
+          },
+          "depart_time": "2025-05-20T13:30:00",
+          "latest_arrival_time": "2025-05-20T14:03:00",
+          "distance_km": 17.07
+        }
+      ],
+      "initial_soc": 0.65
+    }
+  },
+  {
+    "id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "name": "The High-End Driver_1",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "High income, tops up constantly at Fast Chargers to avoid downtime.",
+      "range_anxiety_level": 0.85,
+      "price_sensitivity": 0.13,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ33_3",
+            "type": "Home",
+            "x": 27084.9,
+            "y": 22129.394999999997,
+            "edge_id": "edge33_32",
+            "taz_id": "TAZ33"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ26_2",
+            "type": "Home",
+            "x": 21596.732500000002,
+            "y": 9.444999999999999,
+            "edge_id": "edge26_27",
+            "taz_id": "TAZ26"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:51:00",
+          "distance_km": 38.84
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Home_TAZ26_2",
+            "type": "Home",
+            "x": 21596.732500000002,
+            "y": 9.444999999999999,
+            "edge_id": "edge26_27",
+            "taz_id": "TAZ26"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:13:00",
+          "distance_km": 35.3
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ6_3",
+            "type": "Work",
+            "x": 3947.415,
+            "y": 12071.83,
+            "edge_id": "edge6_5",
+            "taz_id": "TAZ6"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:23:00",
+          "distance_km": 11.29
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Work_TAZ6_3",
+            "type": "Work",
+            "x": 3947.415,
+            "y": 12071.83,
+            "edge_id": "edge6_5",
+            "taz_id": "TAZ6"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:40:00",
+          "distance_km": 27.78
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ29_3",
+            "type": "Relax",
+            "x": 26050.9225,
+            "y": 8061.165,
+            "edge_id": "edge29_37",
+            "taz_id": "TAZ29"
+          },
+          "depart_time": "2025-05-20T09:30:00",
+          "latest_arrival_time": "2025-05-20T10:11:00",
+          "distance_km": 31.24
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_5",
+          "origin_loc": {
+            "id": "Relax_TAZ29_3",
+            "type": "Relax",
+            "x": 26050.9225,
+            "y": 8061.165,
+            "edge_id": "edge29_37",
+            "taz_id": "TAZ29"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ27_2",
+            "type": "Other",
+            "x": 10494.2425,
+            "y": 1511.4250000000002,
+            "edge_id": "edge27_26",
+            "taz_id": "TAZ27"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:45:00",
+          "distance_km": 35.96
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Other_TAZ27_2",
+            "type": "Other",
+            "x": 10494.2425,
+            "y": 1511.4250000000002,
+            "edge_id": "edge27_26",
+            "taz_id": "TAZ27"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T10:30:00",
+          "latest_arrival_time": "2025-05-20T11:20:00",
+          "distance_km": 44.28
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Other_TAZ11_0",
+            "type": "Other",
+            "x": 13606.880000000001,
+            "y": 23970.324999999997,
+            "edge_id": "edge11_8",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_0",
+            "type": "Work",
+            "x": 20324.18,
+            "y": 4963.9775,
+            "edge_id": "edge25_24",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:42:00",
+          "distance_km": 29.6
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Work_TAZ25_0",
+            "type": "Work",
+            "x": 20324.18,
+            "y": 4963.9775,
+            "edge_id": "edge25_24",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_2",
+            "type": "Other",
+            "x": 8447.1975,
+            "y": 3518.5525,
+            "edge_id": "edge28_27",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:33:00",
+          "distance_km": 16.4
+        },
+        {
+          "trip_id": "agent_26_GIG_WORKER_INSENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ28_2",
+            "type": "Other",
+            "x": 8447.1975,
+            "y": 3518.5525,
+            "edge_id": "edge28_27",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ33_3",
+            "type": "Home",
+            "x": 27084.9,
+            "y": 22129.394999999997,
+            "edge_id": "edge33_32",
+            "taz_id": "TAZ33"
+          },
+          "depart_time": "2025-05-20T13:30:00",
+          "latest_arrival_time": "2025-05-20T14:15:00",
+          "distance_km": 36.61
+        }
+      ],
+      "initial_soc": 0.6
+    }
+  },
+  {
+    "id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "name": "The High-End Driver_2",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "High income, tops up constantly at Fast Chargers to avoid downtime.",
+      "range_anxiety_level": 0.87,
+      "price_sensitivity": 0.08,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ4_2",
+            "type": "Home",
+            "x": 23225.405000000002,
+            "y": 29171.2175,
+            "edge_id": "edge4_3",
+            "taz_id": "TAZ4"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ31_3",
+            "type": "Work",
+            "x": 30780.075,
+            "y": 15185.99,
+            "edge_id": "edge31_37",
+            "taz_id": "TAZ31"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:52:00",
+          "distance_km": 39.42
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Work_TAZ31_3",
+            "type": "Work",
+            "x": 30780.075,
+            "y": 15185.99,
+            "edge_id": "edge31_37",
+            "taz_id": "TAZ31"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_1",
+            "type": "Other",
+            "x": 28936.5875,
+            "y": 18654.66,
+            "edge_id": "edge32_31",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:02:00",
+          "distance_km": 17.63
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ32_1",
+            "type": "Other",
+            "x": 28936.5875,
+            "y": 18654.66,
+            "edge_id": "edge32_31",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_3",
+            "type": "Work",
+            "x": 20377.765,
+            "y": 4991.990000000001,
+            "edge_id": "edge25_19",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:30:00",
+          "distance_km": 22.69
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Work_TAZ25_3",
+            "type": "Work",
+            "x": 20377.765,
+            "y": 4991.990000000001,
+            "edge_id": "edge25_19",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:44:00",
+          "distance_km": 37.55
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ5_1",
+            "type": "Other",
+            "x": 519.89,
+            "y": 11313.05,
+            "edge_id": "edge5_1",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ19_2",
+            "type": "Relax",
+            "x": 21495.2575,
+            "y": 8636.635,
+            "edge_id": "edge19_18",
+            "taz_id": "TAZ19"
+          },
+          "depart_time": "2025-05-20T09:30:00",
+          "latest_arrival_time": "2025-05-20T10:15:00",
+          "distance_km": 36.14
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_5",
+          "origin_loc": {
+            "id": "Relax_TAZ19_2",
+            "type": "Relax",
+            "x": 21495.2575,
+            "y": 8636.635,
+            "edge_id": "edge19_18",
+            "taz_id": "TAZ19"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:38:00",
+          "distance_km": 31.21
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ27_1",
+            "type": "Other",
+            "x": 10492.317500000001,
+            "y": 1538.5200000000002,
+            "edge_id": "edge27_24",
+            "taz_id": "TAZ27"
+          },
+          "depart_time": "2025-05-20T10:30:00",
+          "latest_arrival_time": "2025-05-20T11:10:00",
+          "distance_km": 30.99
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Other_TAZ27_1",
+            "type": "Other",
+            "x": 10492.317500000001,
+            "y": 1538.5200000000002,
+            "edge_id": "edge27_24",
+            "taz_id": "TAZ27"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ10_0",
+            "type": "Relax",
+            "x": 3948.2025,
+            "y": 16706.989999999998,
+            "edge_id": "edge10_1",
+            "taz_id": "TAZ10"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:36:00",
+          "distance_km": 29.75
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Relax_TAZ10_0",
+            "type": "Relax",
+            "x": 3948.2025,
+            "y": 16706.989999999998,
+            "edge_id": "edge10_1",
+            "taz_id": "TAZ10"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_1",
+            "type": "Other",
+            "x": 28936.5875,
+            "y": 18654.66,
+            "edge_id": "edge32_31",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:55:00",
+          "distance_km": 44.2
+        },
+        {
+          "trip_id": "agent_27_GIG_WORKER_INSENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ32_1",
+            "type": "Other",
+            "x": 28936.5875,
+            "y": 18654.66,
+            "edge_id": "edge32_31",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ4_2",
+            "type": "Home",
+            "x": 23225.405000000002,
+            "y": 29171.2175,
+            "edge_id": "edge4_3",
+            "taz_id": "TAZ4"
+          },
+          "depart_time": "2025-05-20T13:30:00",
+          "latest_arrival_time": "2025-05-20T14:07:00",
+          "distance_km": 29.69
+        }
+      ],
+      "initial_soc": 0.69
+    }
+  },
+  {
+    "id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "name": "The High-End Driver_3",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "ANXIOUS",
+      "personality_traits": "High income, tops up constantly at Fast Chargers to avoid downtime.",
+      "range_anxiety_level": 0.84,
+      "price_sensitivity": 0.14,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS",
+      "trips": [
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ4_0",
+            "type": "Home",
+            "x": 23268.845,
+            "y": 29119.5,
+            "edge_id": "edge4_33",
+            "taz_id": "TAZ4"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ31_2",
+            "type": "Work",
+            "x": 30766.455,
+            "y": 15209.4725,
+            "edge_id": "edge31_16",
+            "taz_id": "TAZ31"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:34:00",
+          "distance_km": 24.71
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_1",
+          "origin_loc": {
+            "id": "Work_TAZ31_2",
+            "type": "Work",
+            "x": 30766.455,
+            "y": 15209.4725,
+            "edge_id": "edge31_16",
+            "taz_id": "TAZ31"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T07:30:00",
+          "latest_arrival_time": "2025-05-20T08:11:00",
+          "distance_km": 34.68
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ23_2",
+            "type": "Other",
+            "x": 12875.657500000001,
+            "y": 7032.455,
+            "edge_id": "edge23_6",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ8_2",
+            "type": "Home",
+            "x": 10339.2725,
+            "y": 19428.949999999997,
+            "edge_id": "edge8_11",
+            "taz_id": "TAZ8"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:37:00",
+          "distance_km": 25.42
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_3",
+          "origin_loc": {
+            "id": "Home_TAZ8_2",
+            "type": "Home",
+            "x": 10339.2725,
+            "y": 19428.949999999997,
+            "edge_id": "edge8_11",
+            "taz_id": "TAZ8"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ36_0",
+            "type": "Other",
+            "x": 36122.1875,
+            "y": 23232.41,
+            "edge_id": "edge36_34",
+            "taz_id": "TAZ36"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:51:00",
+          "distance_km": 45.6
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ36_0",
+            "type": "Other",
+            "x": 36122.1875,
+            "y": 23232.41,
+            "edge_id": "edge36_34",
+            "taz_id": "TAZ36"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ24_0",
+            "type": "Relax",
+            "x": 15424.7575,
+            "y": 5144.4349999999995,
+            "edge_id": "edge24_25",
+            "taz_id": "TAZ24"
+          },
+          "depart_time": "2025-05-20T09:30:00",
+          "latest_arrival_time": "2025-05-20T10:16:00",
+          "distance_km": 36.64
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_5",
+          "origin_loc": {
+            "id": "Relax_TAZ24_0",
+            "type": "Relax",
+            "x": 15424.7575,
+            "y": 5144.4349999999995,
+            "edge_id": "edge24_25",
+            "taz_id": "TAZ24"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ37_0",
+            "type": "Relax",
+            "x": 28705.629999999997,
+            "y": 10719.57,
+            "edge_id": "edge37_31",
+            "taz_id": "TAZ37"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:35:00",
+          "distance_km": 19.91
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ37_0",
+            "type": "Relax",
+            "x": 28705.629999999997,
+            "y": 10719.57,
+            "edge_id": "edge37_31",
+            "taz_id": "TAZ37"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ27_2",
+            "type": "Other",
+            "x": 10494.2425,
+            "y": 1511.4250000000002,
+            "edge_id": "edge27_26",
+            "taz_id": "TAZ27"
+          },
+          "depart_time": "2025-05-20T10:30:00",
+          "latest_arrival_time": "2025-05-20T11:24:00",
+          "distance_km": 42.12
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_7",
+          "origin_loc": {
+            "id": "Other_TAZ27_2",
+            "type": "Other",
+            "x": 10494.2425,
+            "y": 1511.4250000000002,
+            "edge_id": "edge27_26",
+            "taz_id": "TAZ27"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ29_1",
+            "type": "Relax",
+            "x": 26002.535,
+            "y": 8070.33,
+            "edge_id": "edge29_18",
+            "taz_id": "TAZ29"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:37:00",
+          "distance_km": 25.85
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_8",
+          "origin_loc": {
+            "id": "Relax_TAZ29_1",
+            "type": "Relax",
+            "x": 26002.535,
+            "y": 8070.33,
+            "edge_id": "edge29_18",
+            "taz_id": "TAZ29"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:37:00",
+          "distance_km": 21.72
+        },
+        {
+          "trip_id": "agent_28_GIG_WORKER_INSENSITIVE_ANXIOUS_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ4_0",
+            "type": "Home",
+            "x": 23268.845,
+            "y": 29119.5,
+            "edge_id": "edge4_33",
+            "taz_id": "TAZ4"
+          },
+          "depart_time": "2025-05-20T13:30:00",
+          "latest_arrival_time": "2025-05-20T14:07:00",
+          "distance_km": 24.15
+        }
+      ],
+      "initial_soc": 0.36
+    }
+  },
+  {
+    "id": "agent_29_GIG_WORKER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM",
+      "name": "The Volume Runner_0",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Just drives. Charges at nearest fast charger only when empty.",
+      "range_anxiety_level": 0.05,
+      "price_sensitivity": 0.17,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ20_1",
+            "type": "Home",
+            "x": 18459.8275,
+            "y": 9418.975,
+            "edge_id": "edge20_25",
+            "taz_id": "TAZ20"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ14_2",
+            "type": "Work",
+            "x": 17649.805,
+            "y": 15880.8875,
+            "edge_id": "edge14_13",
+            "taz_id": "TAZ14"
+          },
+          "depart_time": "2025-05-20T06:00:00",
+          "latest_arrival_time": "2025-05-20T06:23:00",
+          "distance_km": 17.87
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Work_TAZ14_2",
+            "type": "Work",
+            "x": 17649.805,
+            "y": 15880.8875,
+            "edge_id": "edge14_13",
+            "taz_id": "TAZ14"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:35:00",
+          "distance_km": 29.35
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ28_0",
+            "type": "Other",
+            "x": 8432.2225,
+            "y": 3551.35,
+            "edge_id": "edge28_5",
+            "taz_id": "TAZ28"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_1",
+            "type": "Other",
+            "x": 12861.534999999998,
+            "y": 6999.287499999999,
+            "edge_id": "edge23_28",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:38:00",
+          "distance_km": 30.36
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ23_1",
+            "type": "Other",
+            "x": 12861.534999999998,
+            "y": 6999.287499999999,
+            "edge_id": "edge23_28",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:18:00",
+          "distance_km": 14.28
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ22_0",
+            "type": "Work",
+            "x": 14063.144999999999,
+            "y": 11012.1625,
+            "edge_id": "edge22_21",
+            "taz_id": "TAZ22"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:17:00",
+          "distance_km": 12.4
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Work_TAZ22_0",
+            "type": "Work",
+            "x": 14063.144999999999,
+            "y": 11012.1625,
+            "edge_id": "edge22_21",
+            "taz_id": "TAZ22"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ19_3",
+            "type": "Relax",
+            "x": 21456.174999999996,
+            "y": 8649.505,
+            "edge_id": "edge19_20",
+            "taz_id": "TAZ19"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:14:00",
+          "distance_km": 10.75
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ19_3",
+            "type": "Relax",
+            "x": 21456.174999999996,
+            "y": 8649.505,
+            "edge_id": "edge19_20",
+            "taz_id": "TAZ19"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ13_2",
+            "type": "Home",
+            "x": 16037.9525,
+            "y": 15094.93,
+            "edge_id": "edge13_12",
+            "taz_id": "TAZ13"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:19:00",
+          "distance_km": 14.19
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Home_TAZ13_2",
+            "type": "Home",
+            "x": 16037.9525,
+            "y": 15094.93,
+            "edge_id": "edge13_12",
+            "taz_id": "TAZ13"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:28:00",
+          "distance_km": 19.64
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ32_3",
+            "type": "Other",
+            "x": 28949.455,
+            "y": 18690.3825,
+            "edge_id": "edge32_34",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_0",
+            "type": "Other",
+            "x": 22866.299999999996,
+            "y": 8914.395,
+            "edge_id": "edge18_19",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:36:00",
+          "distance_km": 23.65
+        },
+        {
+          "trip_id": "agent_29_GIG_WORKER_INSENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ18_0",
+            "type": "Other",
+            "x": 22866.299999999996,
+            "y": 8914.395,
+            "edge_id": "edge18_19",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ20_1",
+            "type": "Home",
+            "x": 18459.8275,
+            "y": 9418.975,
+            "edge_id": "edge20_25",
+            "taz_id": "TAZ20"
+          },
+          "depart_time": "2025-05-20T15:00:00",
+          "latest_arrival_time": "2025-05-20T15:17:00",
+          "distance_km": 9.29
+        }
+      ],
+      "initial_soc": 0.52
+    }
+  },
+  {
+    "id": "agent_30_GIG_WORKER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM",
+      "name": "The Volume Runner_1",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Just drives. Charges at nearest fast charger only when empty.",
+      "range_anxiety_level": 0.18,
+      "price_sensitivity": 0.11,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ33_3",
+            "type": "Home",
+            "x": 27084.9,
+            "y": 22129.394999999997,
+            "edge_id": "edge33_32",
+            "taz_id": "TAZ33"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "depart_time": "2025-05-20T06:00:00",
+          "latest_arrival_time": "2025-05-20T06:32:00",
+          "distance_km": 30.43
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_2",
+            "type": "Other",
+            "x": 13630.880000000001,
+            "y": 23992.152499999997,
+            "edge_id": "edge11_3",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:38:00",
+          "distance_km": 33.18
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ11_2",
+            "type": "Other",
+            "x": 13630.880000000001,
+            "y": 23992.152499999997,
+            "edge_id": "edge11_3",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:26:00",
+          "distance_km": 17.93
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ7_1",
+            "type": "Other",
+            "x": 7022.33,
+            "y": 15561.19,
+            "edge_id": "edge7_10",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_1",
+            "type": "Other",
+            "x": 13632.3,
+            "y": 23962.975,
+            "edge_id": "edge11_12",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:31:00",
+          "distance_km": 23.59
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ11_1",
+            "type": "Other",
+            "x": 13632.3,
+            "y": 23962.975,
+            "edge_id": "edge11_12",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ21_0",
+            "type": "Home",
+            "x": 16075.1875,
+            "y": 10319.835,
+            "edge_id": "edge21_24",
+            "taz_id": "TAZ21"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:33:00",
+          "distance_km": 20.3
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Home_TAZ21_0",
+            "type": "Home",
+            "x": 16075.1875,
+            "y": 10319.835,
+            "edge_id": "edge21_24",
+            "taz_id": "TAZ21"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ37_2",
+            "type": "Relax",
+            "x": 28651.754999999997,
+            "y": 10678.6175,
+            "edge_id": "edge37_29",
+            "taz_id": "TAZ37"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:30:00",
+          "distance_km": 23.86
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ37_2",
+            "type": "Relax",
+            "x": 28651.754999999997,
+            "y": 10678.6175,
+            "edge_id": "edge37_29",
+            "taz_id": "TAZ37"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:23:00",
+          "distance_km": 17.72
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Home_TAZ30_0",
+            "type": "Home",
+            "x": 30414.675,
+            "y": 2554.1324999999997,
+            "edge_id": "edge30_29",
+            "taz_id": "TAZ30"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ27_0",
+            "type": "Other",
+            "x": 10453.699999999999,
+            "y": 1537.6825,
+            "edge_id": "edge27_28",
+            "taz_id": "TAZ27"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:38:00",
+          "distance_km": 27.21
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ27_0",
+            "type": "Other",
+            "x": 10453.699999999999,
+            "y": 1537.6825,
+            "edge_id": "edge27_28",
+            "taz_id": "TAZ27"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_1",
+            "type": "Other",
+            "x": 13632.3,
+            "y": 23962.975,
+            "edge_id": "edge11_12",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:38:00",
+          "distance_km": 36.27
+        },
+        {
+          "trip_id": "agent_30_GIG_WORKER_INSENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ11_1",
+            "type": "Other",
+            "x": 13632.3,
+            "y": 23962.975,
+            "edge_id": "edge11_12",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ33_3",
+            "type": "Home",
+            "x": 27084.9,
+            "y": 22129.394999999997,
+            "edge_id": "edge33_32",
+            "taz_id": "TAZ33"
+          },
+          "depart_time": "2025-05-20T15:00:00",
+          "latest_arrival_time": "2025-05-20T15:31:00",
+          "distance_km": 20.4
+        }
+      ],
+      "initial_soc": 0.66
+    }
+  },
+  {
+    "id": "agent_31_GIG_WORKER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM",
+      "name": "The Volume Runner_2",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Just drives. Charges at nearest fast charger only when empty.",
+      "range_anxiety_level": 0.26,
+      "price_sensitivity": 0.0,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ4_1",
+            "type": "Home",
+            "x": 23242.18,
+            "y": 29115.6225,
+            "edge_id": "edge4_35",
+            "taz_id": "TAZ4"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ36_1",
+            "type": "Other",
+            "x": 36136.2,
+            "y": 23214.735,
+            "edge_id": "edge36_9",
+            "taz_id": "TAZ36"
+          },
+          "depart_time": "2025-05-20T06:00:00",
+          "latest_arrival_time": "2025-05-20T06:30:00",
+          "distance_km": 28.74
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Other_TAZ36_1",
+            "type": "Other",
+            "x": 36136.2,
+            "y": 23214.735,
+            "edge_id": "edge36_9",
+            "taz_id": "TAZ36"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_0",
+            "type": "Other",
+            "x": 28891.325,
+            "y": 18675.45,
+            "edge_id": "edge32_17",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:31:00",
+          "distance_km": 23.58
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ32_0",
+            "type": "Other",
+            "x": 28891.325,
+            "y": 18675.45,
+            "edge_id": "edge32_17",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_0",
+            "type": "Other",
+            "x": 12904.41,
+            "y": 7033.1275,
+            "edge_id": "edge23_22",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:34:00",
+          "distance_km": 28.34
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ23_0",
+            "type": "Other",
+            "x": 12904.41,
+            "y": 7033.1275,
+            "edge_id": "edge23_22",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:23:00",
+          "distance_km": 16.4
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ18_1",
+            "type": "Other",
+            "x": 22919.144999999997,
+            "y": 8890.6875,
+            "edge_id": "edge18_29",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ11_1",
+            "type": "Other",
+            "x": 13632.3,
+            "y": 23962.975,
+            "edge_id": "edge11_12",
+            "taz_id": "TAZ11"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:41:00",
+          "distance_km": 33.81
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Other_TAZ11_1",
+            "type": "Other",
+            "x": 13632.3,
+            "y": 23962.975,
+            "edge_id": "edge11_12",
+            "taz_id": "TAZ11"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ16_3",
+            "type": "Relax",
+            "x": 22163.895,
+            "y": 12521.68,
+            "edge_id": "edge16_31",
+            "taz_id": "TAZ16"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:30:00",
+          "distance_km": 24.65
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ16_3",
+            "type": "Relax",
+            "x": 22163.895,
+            "y": 12521.68,
+            "edge_id": "edge16_31",
+            "taz_id": "TAZ16"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ24_0",
+            "type": "Relax",
+            "x": 15424.7575,
+            "y": 5144.4349999999995,
+            "edge_id": "edge24_25",
+            "taz_id": "TAZ24"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:37:00",
+          "distance_km": 33.83
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Relax_TAZ24_0",
+            "type": "Relax",
+            "x": 15424.7575,
+            "y": 5144.4349999999995,
+            "edge_id": "edge24_25",
+            "taz_id": "TAZ24"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_0",
+            "type": "Other",
+            "x": 22866.299999999996,
+            "y": 8914.395,
+            "edge_id": "edge18_19",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:19:00",
+          "distance_km": 11.49
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ18_0",
+            "type": "Other",
+            "x": 22866.299999999996,
+            "y": 8914.395,
+            "edge_id": "edge18_19",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_0",
+            "type": "Other",
+            "x": 542.79,
+            "y": 11293.3775,
+            "edge_id": "edge5_6",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:36:00",
+          "distance_km": 28.95
+        },
+        {
+          "trip_id": "agent_31_GIG_WORKER_INSENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ5_0",
+            "type": "Other",
+            "x": 542.79,
+            "y": 11293.3775,
+            "edge_id": "edge5_6",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ4_1",
+            "type": "Home",
+            "x": 23242.18,
+            "y": 29115.6225,
+            "edge_id": "edge4_35",
+            "taz_id": "TAZ4"
+          },
+          "depart_time": "2025-05-20T15:00:00",
+          "latest_arrival_time": "2025-05-20T15:40:00",
+          "distance_km": 38.79
+        }
+      ],
+      "initial_soc": 0.53
+    }
+  },
+  {
+    "id": "agent_32_GIG_WORKER_INSENSITIVE_CALM",
+    "type": "llm_generated",
+    "profile": {
+      "agent_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM",
+      "name": "The Volume Runner_3",
+      "role_type": "GIG_WORKER",
+      "price_trait": "INSENSITIVE",
+      "anxiety_trait": "CALM",
+      "personality_traits": "Just drives. Charges at nearest fast charger only when empty.",
+      "range_anxiety_level": 0.28,
+      "price_sensitivity": 0.1,
+      "vehicle": {
+        "capacity_kwh": 75.0,
+        "max_charge_power_kw": 250.0,
+        "max_slow_power_kw": 11.0,
+        "car_model": "Tesla Model Y"
+      },
+      "energy_strategy": "CONVENIENCE_FIRST"
+    },
+    "schedule": {
+      "agent_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM",
+      "trips": [
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_0",
+          "origin_loc": {
+            "id": "Home_TAZ8_1",
+            "type": "Home",
+            "x": 10312.2775,
+            "y": 19440.542500000003,
+            "edge_id": "edge8_2",
+            "taz_id": "TAZ8"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ18_2",
+            "type": "Other",
+            "x": 22922.22,
+            "y": 8917.565,
+            "edge_id": "edge18_37",
+            "taz_id": "TAZ18"
+          },
+          "depart_time": "2025-05-20T06:00:00",
+          "latest_arrival_time": "2025-05-20T06:46:00",
+          "distance_km": 40.27
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_1",
+          "origin_loc": {
+            "id": "Other_TAZ18_2",
+            "type": "Other",
+            "x": 22922.22,
+            "y": 8917.565,
+            "edge_id": "edge18_37",
+            "taz_id": "TAZ18"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ5_2",
+            "type": "Other",
+            "x": 529.7175000000001,
+            "y": 11269.7375,
+            "edge_id": "edge5_28",
+            "taz_id": "TAZ5"
+          },
+          "depart_time": "2025-05-20T07:00:00",
+          "latest_arrival_time": "2025-05-20T07:47:00",
+          "distance_km": 48.49
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_2",
+          "origin_loc": {
+            "id": "Other_TAZ5_2",
+            "type": "Other",
+            "x": 529.7175000000001,
+            "y": 11269.7375,
+            "edge_id": "edge5_28",
+            "taz_id": "TAZ5"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "depart_time": "2025-05-20T08:00:00",
+          "latest_arrival_time": "2025-05-20T08:31:00",
+          "distance_km": 19.72
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_3",
+          "origin_loc": {
+            "id": "Other_TAZ23_3",
+            "type": "Other",
+            "x": 12909.900000000001,
+            "y": 6994.735,
+            "edge_id": "edge23_24",
+            "taz_id": "TAZ23"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ32_2",
+            "type": "Other",
+            "x": 28925.735,
+            "y": 18701.97,
+            "edge_id": "edge32_33",
+            "taz_id": "TAZ32"
+          },
+          "depart_time": "2025-05-20T09:00:00",
+          "latest_arrival_time": "2025-05-20T09:34:00",
+          "distance_km": 30.12
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_4",
+          "origin_loc": {
+            "id": "Other_TAZ32_2",
+            "type": "Other",
+            "x": 28925.735,
+            "y": 18701.97,
+            "edge_id": "edge32_33",
+            "taz_id": "TAZ32"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ8_0",
+            "type": "Home",
+            "x": 10328.814999999999,
+            "y": 19397.5975,
+            "edge_id": "edge8_13",
+            "taz_id": "TAZ8"
+          },
+          "depart_time": "2025-05-20T10:00:00",
+          "latest_arrival_time": "2025-05-20T10:37:00",
+          "distance_km": 32.1
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_5",
+          "origin_loc": {
+            "id": "Home_TAZ8_0",
+            "type": "Home",
+            "x": 10328.814999999999,
+            "y": 19397.5975,
+            "edge_id": "edge8_13",
+            "taz_id": "TAZ8"
+          },
+          "dest_loc": {
+            "id": "Relax_TAZ3_1",
+            "type": "Relax",
+            "x": 13587.282500000001,
+            "y": 26051.024999999998,
+            "edge_id": "edge3_2",
+            "taz_id": "TAZ3"
+          },
+          "depart_time": "2025-05-20T11:00:00",
+          "latest_arrival_time": "2025-05-20T11:36:00",
+          "distance_km": 26.46
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_6",
+          "origin_loc": {
+            "id": "Relax_TAZ3_1",
+            "type": "Relax",
+            "x": 13587.282500000001,
+            "y": 26051.024999999998,
+            "edge_id": "edge3_2",
+            "taz_id": "TAZ3"
+          },
+          "dest_loc": {
+            "id": "Work_TAZ25_0",
+            "type": "Work",
+            "x": 20324.18,
+            "y": 4963.9775,
+            "edge_id": "edge25_24",
+            "taz_id": "TAZ25"
+          },
+          "depart_time": "2025-05-20T12:00:00",
+          "latest_arrival_time": "2025-05-20T12:41:00",
+          "distance_km": 38.62
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_7",
+          "origin_loc": {
+            "id": "Work_TAZ25_0",
+            "type": "Work",
+            "x": 20324.18,
+            "y": 4963.9775,
+            "edge_id": "edge25_24",
+            "taz_id": "TAZ25"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T13:00:00",
+          "latest_arrival_time": "2025-05-20T13:35:00",
+          "distance_km": 25.01
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_8",
+          "origin_loc": {
+            "id": "Other_TAZ7_2",
+            "type": "Other",
+            "x": 7021.575000000001,
+            "y": 15534.555,
+            "edge_id": "edge7_6",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Other_TAZ7_0",
+            "type": "Other",
+            "x": 7058.320000000001,
+            "y": 15557.355,
+            "edge_id": "edge7_8",
+            "taz_id": "TAZ7"
+          },
+          "depart_time": "2025-05-20T14:00:00",
+          "latest_arrival_time": "2025-05-20T14:21:00",
+          "distance_km": 14.19
+        },
+        {
+          "trip_id": "agent_32_GIG_WORKER_INSENSITIVE_CALM_t_9",
+          "origin_loc": {
+            "id": "Other_TAZ7_0",
+            "type": "Other",
+            "x": 7058.320000000001,
+            "y": 15557.355,
+            "edge_id": "edge7_8",
+            "taz_id": "TAZ7"
+          },
+          "dest_loc": {
+            "id": "Home_TAZ8_1",
+            "type": "Home",
+            "x": 10312.2775,
+            "y": 19440.542500000003,
+            "edge_id": "edge8_2",
+            "taz_id": "TAZ8"
+          },
+          "depart_time": "2025-05-20T15:00:00",
+          "latest_arrival_time": "2025-05-20T15:17:00",
+          "distance_km": 12.78
+        }
+      ],
+      "initial_soc": 0.73
+    }
+  }
+]
